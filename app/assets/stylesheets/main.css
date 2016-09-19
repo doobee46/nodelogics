@@ -1,0 +1,498 @@
+html{
+	text-rendering: optimizeLegibility;
+	
+}
+body{
+ padding-top:86px;
+}
+.header{
+	display:block;
+	background-color: #FFFFFF;
+	height:86px;
+	width: 100%;
+	border-bottom: 1px solid #e1e5e9;
+	position: fixed;
+	z-index: 1000;
+	top:0;
+}
+
+.logo{
+	position:relative;
+	top:25px;
+}
+
+.nav_bar ul {
+	list-style-type: none;
+	margin: 0 ; padding: 0;
+	position: relative;
+	top:32px;
+	float:right;
+}
+
+.nav_bar ul li {
+	float:left;
+}
+
+.nav_bar ul li a {
+	display:block;
+	padding:0 12px;
+	font-family: 'Montserrat', sans-serif;
+	font-size:14px;
+	letter-spacing:0pt;
+	line-height:120%;
+	font-weight:normal;
+	color:#649CCE;
+	text-align:left;
+	text-decoration:none;
+	text-transform: capitalize;
+    letter-spacing: 1px;
+}
+
+.nav_bar ul li a:hover{
+    color:rgba(51,51,51,1);	
+}
+
+.login_menu ul {
+	list-style-type: none;
+	margin: 0 ; padding: 0;
+	position:relative;
+	top:15px;
+}
+
+.login_menu ul li {
+	float:left;
+}
+
+.login_menu ul li a.btn {
+	text-transform: capitalize;
+	text-decoration: none;
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight:400;
+	font-size: 16px;
+}
+
+.login_menu ul li a.btn.btn-primary:hover{
+   color:#fff;
+}
+
+.btn {
+	display: inline-block;
+	overflow: visible;
+	margin: 0;
+	padding: 0 32px;
+	height: 48px;
+	border: 0;
+	border-radius: 3px;
+	vertical-align: middle;
+	text-align: center;
+	text-decoration: none;
+	text-transform: none;
+	white-space: nowrap;
+	cursor: pointer;
+	line-height: 44px;
+}
+
+.btn-primary{
+   background: #003E5B;
+   color:#fff;
+  
+}
+
+.btn-simple{
+   background:none;	
+   border:1px solid #e1e5e9;
+   margin-right:13px;
+}
+
+.jumbotron{
+   background-image:-moz-linear-gradient(0% 100% 25deg,rgb(19,41,61) 0%,rgb(57,124,185) 100%); 
+   background-image:-webkit-gradient(linear,0% 100%,99% -1%,color-stop(0, rgb(19,41,61)),color-stop(1, rgb(57,124,185)));
+   background-image:-webkit-linear-gradient(25deg,rgb(19,41,61) 0%,rgb(57,124,185) 100%);
+   background-image:linear-gradient(25deg,rgb(19,41,61) 0%,rgb(57,124,185) 100%);
+   width:100%;
+   height:520px;
+   display:block;
+}
+
+.info{
+   margin: 0 auto;
+   position: relative;
+   top:95px;
+   width: 620px;
+   z-index: 100;
+
+}
+
+.info h1{
+	font-family: 'Montserrat', sans-serif;
+	font-size:42px;
+	line-height:120%;
+	font-weight:bold;
+	color:rgb(255,255,255);
+	text-align:center;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
+.info h3{
+	font-family: 'Josefin Sans', sans-serif;
+	font-size:25px;
+	line-height:120%;
+	font-weight:300;
+	color:rgb(255,255,255);
+	text-align:center;
+	margin-top:-25px;
+}
+
+.btn-wrapper{
+	width: 255px;
+	margin:0 auto;
+}
+
+.info a{
+	font-family: 'Montserrat', sans-serif;
+	font-size:17px;
+	letter-spacing:1pt;
+	font-weight:600;
+	color:rgb(255,255,255);
+	text-align:left;
+	text-transform: uppercase;
+	position: relative;
+  	margin:0 auto;
+  	height:65px;
+    line-height: 60px;
+
+}
+
+.info a:hover{
+	color: #fff; 
+	text-decoration: none;
+	background-color: #00202F;
+}
+
+.btn-shadow{
+    -moz-border-radius:5px ;
+	-webkit-border-radius:5px ;
+	border-radius:5px ;
+	-moz-box-shadow:1px 1px 4px rgba(19,41,61,0.65);
+	-webkit-box-shadow:1px 1px 4px rgba(19,41,61,0.65);
+	box-shadow:1px 1px 4px rgba(19,41,61,0.65);
+    
+}
+
+.jumbotron .cloud-bg{
+	width:100%;
+	height:294px;
+	position: relative;
+    top: 25px;
+}
+
+.product{
+    display: block;
+    width: 100%;
+    background-color: #fff;
+    height: 650px;
+}
+
+.wrapper{
+	position: relative;
+	top:70px;
+}
+
+.features h1{
+	text-align: center;
+	font-size:26px;
+	line-height:120%;
+	font-weight:bold;
+	color:rgb(19,44,64);
+}
+
+.features h3{
+	text-align: center;
+	font-size:19px;
+	line-height:120%;
+	font-weight:normal;
+	color:rgb(19,44,64);
+    margin-top:-15px;
+}
+
+.feature-list{
+	width:331px;
+    padding:10px 20px 10px 10px;
+}
+
+.feature-list h3{
+	font-family: 'Montserrat', sans-serif;
+	font-size:19px;
+	line-height:120%;
+	font-weight:bold;
+	color:rgb(68,68,68);
+	text-align:center;
+	margin-top: 0px;
+}
+
+.feature-list p{
+	font-family: 'Istok Web', sans-serif;
+	font-size:14px;
+	line-height:140%;
+	font-weight:normal;
+	color:rgb(134,134,134);
+	text-align:center;
+}
+
+.feature-img{
+	margin: 0 auto;
+	width:115px;
+	position: relative;
+	bottom:20px;
+
+}
+
+.feature-list a {
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.feature-list.border a {
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.border{
+	border-right: 1px solid rgba(225,229,233,0.45);;
+}
+
+.value-item h1{
+	text-align: center;
+	font-size:25px;
+	line-height:120%;
+	font-weight:bold;
+	color:#fff;
+	margin-top:45px;
+	letter-spacing: 1px;
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+}
+
+.value{
+	display:block;
+	background-color:rgb(27,152,224);
+	width:100%;
+	height:447px;
+}
+
+.value .cloud-img{
+	width:100%;
+	height:100px;
+	position: relative;
+    bottom:-40px;
+}
+
+.value-text{
+	color:#fff !important;
+	text-align: left !important;
+}
+
+.align{
+	text-align: left !important;
+}
+
+.pricing{
+	background-color:rgb(255,255,255);
+	width:100%;
+	height:612px;
+}
+
+.price_wrapper{
+	width: 45px;
+	margin: 0 auto;
+}
+.price-list{
+  margin-top: 40px;
+}
+
+.price-list h3{
+	font-size:26px;
+	line-height:120%;
+	font-weight:bold;
+	color:rgb(68,68,68);
+	text-align:center;
+	letter-spacing:1 px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.price-list h6{
+	font-family: 'Istok Web', sans-serif;
+	font-size:12px;
+	line-height:120%;
+	font-weight:normal;
+	color:rgb(185,185,185);
+	text-align:right;
+	position: relative;
+    right: 15px;
+
+}
+
+.price{
+	background-color:transparent;
+	border:1px solid rgb(225,229,233);
+	padding-bottom: 25px;
+	margin-top: -25px;
+}
+
+.price h1{
+	font-family: 'Montserrat', sans-serif;
+	font-size:18px;
+	line-height:120%;
+	font-weight:normal;
+	color:rgb(56,56,56);
+	text-align:center;
+	letter-spacing: 1px;
+	text-transform:uppercase;
+
+}
+
+.price p{
+	font-size:25px;
+	line-height:120%;
+	font-weight:bold;
+	color:rgb(25,152,223);
+	text-align:center;
+	font-family: 'Istok Web', sans-serif;
+}
+
+.price p span{
+	font-size:45px;
+	line-height:120%;
+	font-weight:bold;
+	color:rgb(25,152,223);
+	font-family: 'Istok Web', sans-serif;
+}
+
+.bar{
+	background-color:rgb(0,100,148);
+    width:100%;
+    height:13px;
+}
+
+.price_features{
+	margin-bottom: 25px;
+}
+
+.price .price_features ul {
+	list-style-type: none;
+	margin: 0 ; padding: 0;
+}
+
+.price_features ul li{
+	font-family: 'Montserrat', sans-serif;
+	font-size:18px;
+	font-weight:600;
+	line-height:120%;
+	color:rgb(68,68,68);
+	text-align:center;
+	margin-bottom: 10px;
+}
+
+.price_features ul li span{
+	font-family: 'Montserrat', sans-serif;
+	font-size:16px;
+	font-weight:normal;
+	line-height:120%;
+	color:rgb(68,68,68);
+	text-align:center;
+}
+
+.price a{
+	font-family: 'Montserrat', sans-serif;
+	font-size:14px;
+	letter-spacing:1pt;
+	font-weight:600;
+	color:rgb(255,255,255);
+	text-align:left;
+	text-transform: uppercase;
+	position: relative;
+  	margin:0 auto;
+  	height:45px;
+    line-height: 45px;
+
+}
+
+.order_btn{
+	width:107px;
+	margin: 0 auto;
+}
+
+
+/********************Footer styles***************************************/
+.main_footer{
+	background-color:rgb(19,41,61);
+    width:100%;
+    height:391px;
+    display: block;
+}
+
+.footer-info{
+	margin-top: 55px;
+}
+
+.footer-info h3{
+    font-size:16px;
+	font-weight:600;
+	line-height:120%;
+	color:rgb(255,255,255);
+	text-align:left;
+	font-family: 'Montserrat', sans-serif;
+	margin-left:5px;
+}
+
+.footer-info ul{
+	list-style-type: none;
+	margin:0; padding: 0;
+}
+
+.footer-info ul li{
+	display: block;
+	margin-bottom: 10px;
+	margin-left: 3px;
+}
+
+.footer-info ul li a{
+	font-size:13px;
+	line-height:120%;
+	color:rgb(255,255,255);
+	font-family: 'Istok Web', sans-serif;
+}
+
+.copyright{
+	margin-top:65px;
+}
+
+.copyright h1{
+	font-size:14px;
+	line-height:120%;
+	font-weight:bold;
+	color:rgb(255,255,255);
+	margin-left:0px;
+	text-transform:uppercase;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.copyright h5{
+	font-size:12px;
+	line-height:120%;
+	font-weight:normal;
+	color:rgb(255,255,255);
+    margin-top:-5px;
+    margin-left:0px;
+    font-family: 'Istok Web', sans-serif;
+}
+
+.footer_bar{
+	background-color:rgb(27,152,224);
+    width:100%;
+    height:8px;
+    display: block;
+}

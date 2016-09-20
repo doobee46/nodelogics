@@ -4,4 +4,8 @@ class PagesController < ApplicationController
 
   def hosting
   end
+    
+  def login
+  end
+    
 end

@@ -1,9 +1,9 @@
 Rails.application.routes.draw do
   root 'pages#index'
-  get  'pages/index'
-
-  get  'pages/hosting'
-  get  'pages/login'
+   
+  get "index"=> 'pages#index', as: :portal
+  get "hosting" =>'pages#hosting'
+  get "login" => "pagess#login"
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

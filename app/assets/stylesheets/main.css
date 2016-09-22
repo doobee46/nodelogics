@@ -199,6 +199,10 @@ body{
 	top:70px;
 }
 
+.features{
+	margin-top:85px;
+}
+
 .features h1{
 	text-align: center;
 	font-size:26px;
@@ -380,6 +384,7 @@ body{
 .price_features{
 	width: 150px;
     margin: 0 auto;
+
 }
 
 .price .price_features ul {

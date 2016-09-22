@@ -4,7 +4,7 @@ Rails.application.routes.draw do
   get "index"=> 'pages#index', as: :portal
   get "hosting" =>'pages#hosting', as: :hosting
   get "login" => "pages#login", as: :login
-  get "term" => "pages#terms", as: :terms
+  get "terms" => "pages#terms", as: :terms
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

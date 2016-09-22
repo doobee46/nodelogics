@@ -6,6 +6,7 @@
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
 </head>
+  <%=render :partial =>'shared/feedback'%>
   <%=render :partial =>'shared/chat'%>  
 <body>
   <%=render :partial =>'shared/header'%>

@@ -1,0 +1,28 @@
+
+<body class="login-bg">
+<section>
+		<div class="container">
+			<div class="brand-login">
+			    <%= image_tag ('login_logo.png'), class:"login_brand" %>
+				<!--<img src="img/login_logo.png" class="login_brand" alt="logo">-->
+			</div>
+			<div class="form-wrapper">
+				<div class="form-header">
+					<h3> Log In</h3>
+				</div>
+				<form method="post" action="https://billing.nodelogics.com/billing/dologin.php">
+				<input type="text" name="username" size="50" class="input" placeholder="Username" /><br />
+				<input type="password" name="password" size="20" autocomplete="off" placeholder="Password" class="input"/><br />
+				<input type="submit" value="Log In" class="btn btn-success"/>
+				</form>
+				<div class="action">
+					<h3><a href="https://billing.nodelogics.com/billing/pwreset.php">Forget password?</a></h3>
+				</div>
+			</div>
+			<div class="form-footer">
+				<h3>D'ont have an account <span><a href="https://billing.nodelogics.com/billing/register.php">| Sign up </a></span></h3>
+			</div>
+		</div>
+	</section>
+	<div class="separator-login">
+	</div>

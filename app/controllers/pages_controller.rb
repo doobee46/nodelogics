@@ -13,5 +13,6 @@ class PagesController < ApplicationController
 
   def AUP
   end
+
     
 end

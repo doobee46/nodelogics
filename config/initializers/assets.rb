@@ -12,3 +12,4 @@ Rails.application.config.assets.version = '1.0'
 Rails.application.config.assets.precompile += %w( cloud-bg.png )
 Rails.application.config.assets.precompile += %w( smallservers.png )
 Rails.application.config.assets.precompile += %w( webhosting.png )
+Rails.application.config.assets.precompile += %w( login_logo.png )

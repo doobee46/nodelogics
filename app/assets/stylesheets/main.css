@@ -61,7 +61,7 @@ body{
 }
 
 .login_menu ul li {
-	float:left;
+	float:right;
 }
 
 .login_menu ul li a.btn {
@@ -90,11 +90,11 @@ body{
 	text-transform: none;
 	white-space: nowrap;
 	cursor: pointer;
-	line-height: 44px;
+	line-height: 46px;
 }
 
 .btn-primary{
-   background: #003E5B;
+   background: #0CB863/*#003E5B*/;
    color:#fff;
   
 }
@@ -120,7 +120,7 @@ body{
 .info{
    margin: 0 auto;
    position: relative;
-   top:95px;
+   top:60px;
    width: 620px;
    z-index: 100;
 
@@ -132,25 +132,35 @@ body{
 	line-height:120%;
 	font-weight:bold;
 	color:rgb(255,255,255);
-	text-align:center;
+	text-align:left;
 	text-transform: uppercase;
 	letter-spacing: 2px;
 }
 
-.info h3{
+.info h2{
 	font-family: 'Josefin Sans', sans-serif;
 	font-size:25px;
 	line-height:120%;
 	font-weight:300;
 	color:rgb(255,255,255);
-	text-align:center;
+	text-align:left;
 	margin-top:-25px;
 }
 
-.btn-wrapper{
+.info h3{
+	font-family: 'Josefin Sans', sans-serif;
+	font-size:18px;
+	line-height:120%;
+	font-weight:300;
+	color:rgb(255,255,255);
+	text-align:left;
+	margin-top:-12px;
+}
+
+/*.btn-wrapper{
 	width: 255px;
 	margin:0 auto;
-}
+}*/
 
 .info a{
 	font-family: 'Montserrat', sans-serif;
@@ -161,7 +171,7 @@ body{
 	text-align:left;
 	text-transform: uppercase;
 	position: relative;
-  	margin:0 auto;
+  	/*margin:0 auto;*/
   	height:65px;
     line-height: 60px;
 
@@ -170,10 +180,10 @@ body{
 .info a:hover{
 	color: #fff; 
 	text-decoration: none;
-	background-color: #00202F;
+	background-color: #0CB863/*#00202F*/;
 }
 
-.btn-shadow{
+/*.btn-shadow{
     -moz-border-radius:5px ;
 	-webkit-border-radius:5px ;
 	border-radius:5px ;
@@ -181,13 +191,18 @@ body{
 	-webkit-box-shadow:1px 1px 4px rgba(19,41,61,0.65);
 	box-shadow:1px 1px 4px rgba(19,41,61,0.65);
     
+}*/
+
+.term-wrapper{
+	position: relative;
+	top:60px;
 }
 
 .jumbotron .cloud-bg{
-	width:100%;
-	height:294px;
-	position: relative;
-    top: -20px;
+	width: 100%;
+/*height: 294px;*/
+    position: relative;
+    bottom: -122px;
 }
 
 .product{

@@ -1,6 +1,6 @@
 default: &default
   endpoint: 'https://acme-v01.api.letsencrypt.org/'
-  email: 'admin@nodelogicss.com'
+  email: 'admin@nodelogics.com'
   domain: "<%= ['nodelogics.com', 'www.nodelogics.com'].join(' ') %>"
 
   # in Rails.root, path to private key

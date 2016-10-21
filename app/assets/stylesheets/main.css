@@ -94,7 +94,7 @@ body{
 }
 
 .btn-primary{
-   background: #0CB863/*#003E5B*/;
+   background: #00D936/*#003E5B*/;
    color:#fff;
   
 }
@@ -305,9 +305,9 @@ body{
 
 .value .cloud-img{
 	width:100%;
-	height:100px;
+	/*height:100px;*/
 	position: relative;
-    bottom:-150px;
+    bottom:-156px;
 }
 
 .value-text{

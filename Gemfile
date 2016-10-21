@@ -26,6 +26,7 @@ gem 'rails_12factor'
 gem 'thin'
 gem 'rails-i18n', '~> 4.0.0' # for Rails 4 
 gem 'google-webfonts-rails', '~> 0.0.4'
+gem 'letsencrypt_plugin'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'

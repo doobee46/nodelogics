@@ -6,6 +6,7 @@ Rails.application.routes.draw do
   get "login" => "pages#login", as: :login
   get "terms" => "pages#terms", as: :terms
   get "AUP"=> 'pages#AUP', as: :Acceptable_use_policy
+  mount LetsencryptPlugin::Engine, at: '/'
 
 
   # The priority is based upon order of creation: first created -> highest priority.

@@ -19,7 +19,7 @@ body{
 
 .logo{
 	position:relative;
-	top:25px;
+	top:19px;
 }
 
 .nav_bar ul {
@@ -62,6 +62,7 @@ body{
 
 .login_menu ul li {
 	float:right;
+	
 }
 
 .login_menu ul li a.btn {

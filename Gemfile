@@ -36,14 +36,14 @@ gem "font-awesome-rails"
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
-group :development do
+
    gem 'capistrano', '~> 3.4.0'
    gem 'capistrano-bundler', '~> 1.1.2'
    gem 'capistrano-rails', '~> 1.1.1'
 
 # Add this if you're using rbenv
  gem 'capistrano-rbenv', '~> 2.0.3'
-end
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'

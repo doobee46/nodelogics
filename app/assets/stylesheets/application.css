@@ -12,5 +12,6 @@
  *
  *= require_tree .
  *= require font-awesome
+ *= require cookie_alert
  *= require_self
  */

@@ -27,6 +27,7 @@ gem 'thin'
 gem 'rails-i18n', '~> 4.0.0' # for Rails 4 
 gem 'google-webfonts-rails', '~> 0.0.4'
 gem "font-awesome-rails"
+gem "cookie_alert"
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'

@@ -5,6 +5,7 @@ Rails.application.routes.draw do
   get "hosting" =>'pages#hosting', as: :hosting
   get "login" => "pages#login", as: :login
   get "terms" => "pages#terms", as: :terms
+  mount CookieAlert::Engine => "/cookie-alert"
   
  
 

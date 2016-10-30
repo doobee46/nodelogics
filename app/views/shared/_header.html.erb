@@ -10,12 +10,12 @@
 			<div class="col-md-8">
 				<div class="nav_bar">
 					<ul>
-					    <% unless @title=="index" %>
+					    <% unless @title=="home" %>
 						<li><%= link_to root_path do %>
 						<%= fa_icon "home" %>Home
 						<%end%>
 						<%end%>
-						<li><%= link_to "Feature", :anchor => "#feature" %></li>
+						<li><%= link_to "Features", :anchor => "#feature" %></li>
 						<li><%= link_to "Pricing", :anchor => "#pricing" %></li>
 						<li><%= link_to "Hosting",hosting_path %></li>
 						<!--<li><a href="http://bit.ly/2cUuHF4"></a></li>-->

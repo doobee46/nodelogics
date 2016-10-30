@@ -15,8 +15,9 @@
     google: ['Montserrat', 'Open sans', 'Istok Web']
   }) %>
   <%= favicon_link_tag 'favicon.ico' %>
-
+  
 </head>
+  <%= display_cookie_alert %>
   <%=render :partial =>'shared/feedback'%>
   <%=render :partial =>'shared/chat'%>  
 <body>

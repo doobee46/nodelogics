@@ -1,4 +1,4 @@
-<% @title="index" %>
+<% @title="home" %>
 <section class="jumbotron">
 		<div class="container">
 		    <div class="col-md-6">
@@ -61,43 +61,8 @@
 			</div>
 		</div>               
 	</section>
-	<section class="value">
-		<div class="container">
-			<div class="value-item">
-				<h1>Painless Instances Management</h1>
-				<div class="wrapper">
-					<div class="col-md-4">
-						<div class="feature-list border">
-							<div class="feature-img">
-                                <%= image_tag ('clock.png') %>
-							</div>
-							<h3 class="value-text">Deploy intances in Second<h3>
-						    <p class="value-text align">Latest generation Intel CPUs guarantee consistent performance</p>
-						</div>
-					</div>
-					<div class="col-md-4">
-						<div class="feature-list border">
-							<div class="feature-img">
-                                <%= image_tag ('network.png') %>
-							</div>
-							<h3 class="value-text">Lighting Fast Network<h3>
-						    <p  class="value-text align">Each main server has a fault tolerant and redundant 40Gbps network to ensure uptime and throughput</p>
-						</div>
-					</div>
-					<div class="col-md-4">
-						<div class="feature-list">
-							<div class="feature-img">
-                                <%= image_tag ('contract.png') %>
-							</div>
-							<h3 class="value-text">No long term contracts<h3>
-						    <p class="value-text align">Spin up and spin down with ease with Straightforward pricing when you use our platform</p>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-          <%= image_tag ('clouds.png'), class:"cloud-img" %>              
-	</section>
+	<div class="separator-main">
+	</div>
 	<section class="pricing">
 		<div class="container">
 			<div class="price-list">
@@ -106,7 +71,7 @@
 				</div>
 				<h3>Straightforward Pricing</h3>
 				<div class="openvz_wrapper">
-				    <h5 class="sub">Dedicated VPS based on KVM virtualization</h5>
+				    <h5 class="sub">Dedicated VPS Plan</h5>
 		            <p class="main_notation">Our VPS Servers are powered by the latest Intel Hardware  with Enterprise Raid protected storage for high performance. Each VPS includes our advanced features for instant upgrades, DDOS protection, 160Gbps network and 24/7 Support.</p>
 				</div>
 				<h6>Pricing in USD. Excludes any applicable tax.</h6>
@@ -169,15 +134,156 @@
 		<div class="container">
             <p class="notation">**Based on KVM virtualiztion technology .All resources are guaranteed under the limits of the available resources.</p>
 		</div>
-		<div class="separator-main">
 		
-	    </div>
-		<div class="container">
+		<!--<div class="container">
+		    <div class="openvz_wrapper">
+			    <h5 class="sub">OPENVZ BASED VPS PLAN</h5>
+	         </div>
+			<h6>Pricing in USD. Excludes any applicable tax.</h6>
 		    <div class="custom">
-		    	<p> Don't see what you need,customize one, the way you want </p>
-		    	<div class='order_btn'>
-					<a class="btn btn-primary" href="https://billing.nodelogics.com/billing/cart.php?a=add&pid=5"> Customize </a>
-				<div>
+		    	<div class="table-responsive">
+				<table class="table table-striped table-condensed">
+				  <thead>
+				    <tr>
+				      <th>Ram</th>
+				      <th>Vswap</th>
+				      <th>Storage</th>
+				      <th>CPU Cores</th>
+				      <th>Transfer</th>
+				      <th>IPV4</th>
+				      <th>IPV6</th>
+				      <th>Port Speed</th>
+				      <th>100% Uptime</th>
+				      <th>DDOS Protected</th>
+				      <th>Pricing</th>
+				      <th></th>
+				    </tr>
+				  </thead>
+				  <tbody>
+				    <tr>
+				      <th scope="row">512MB</th>
+				      <td>256MB</td>
+				      <td>20GB</td>
+				      <td>1 CPU</td>
+				      <td>1 TB</td>
+				      <td>1</td>
+				      <td></td>
+				      <td>100 Mbps</td>
+				      <td>Yes</td>
+				      <td>No</td>
+				      <th>$1.00/mo</th>
+                      <td><a href="" class="btn btn-primary-sm fl">Deploy</a></td>
+				    </tr>
+				    <tr>
+				      <th scope="row">1GB</th>
+				      <td>512MB</td>
+				      <td>40GB</td>
+				      <td>1 CPU</td>
+				      <td>1 TB</td>
+				      <td>1</td>
+				      <td>/64</td>
+				      <td>100 Mbps</td>
+				      <td>Yes</td>
+				      <td>No</td>
+				      <th>$2.00/mo</th>
+                      <td><a href="" class="btn btn-primary-sm fl">Deploy</a></td>
+				    </tr>
+				    <tr>
+				      <th scope="row">2GB</th>
+				      <td>1.95GB</td>
+				      <td>60GB</td>
+				      <td>2 CPU</td>
+				      <td>1 TB</td>
+				      <td>1</td>
+				      <td>/64</td>
+				      <td>100 Mbps</td>
+				      <td>Yes</td>
+				      <td>Yes</td>
+				      <th>$4.00/mo</th>
+                      <td><a href="" class="btn btn-primary-sm fl">Deploy</a></td>
+				    </tr>
+				    <tr>
+				      <th scope="row">3GB</th>
+				      <td>2GB</td>
+				      <td>80GB</td>
+				      <td>2 CPU</td>
+				      <td>2TB</td>
+				      <td>1</td>
+				      <td>/64</td>
+				      <td>100 Mbps</td>
+				      <td>Yes</td>
+				      <td>Yes</td>
+				      <th>$6.00/mo</th>
+                      <td><a href="" class="btn btn-primary-sm fl">Deploy</a></td>
+				    </tr>
+				    <tr>
+				      <th scope="row">4GB</th>
+				      <td>3GB</td>
+				      <td>100GB</td>
+				      <td>2 CPU</td>
+				      <td>3TB</td>
+				      <td>1</td>
+				      <td>/64</td>
+				      <td>100 Mbps</td>
+				      <td>Yes</td>
+				      <td>Yes</td>
+				      <th>$8.00/mo</th>
+                      <td><a href="" class="btn btn-primary-sm fl">Deploy</a></td>
+				    </tr>
+				    <tr>
+				      <th scope="row">5GB</th>
+				      <td>4GB</td>
+				      <td>140GB</td>
+				      <td>2 CPU</td>
+				      <td>4TB</td>
+				      <td>1</td>
+				      <td>/64</td>
+				      <td>100 Mbps</td>
+				      <td>Yes</td>
+				      <td>Yes</td>
+				      <th>$8.00/mo</th>
+                      <td><a href="" class="btn btn-primary-sm fl">Deploy</a></td>
+				    </tr>
+				  </tbody>
+				</table>
+				</div>
 		    </div>	
-		</div>	  
+		</div>-->  
+	</section>
+	<section class="value">
+		<div class="container">
+			<div class="value-item">
+				<h1>Nodelogics Advantage</h1>
+				<div class="wrapper">
+					<div class="col-md-4">
+						<div class="feature-list border">
+							<div class="feature-img">
+                                <%= image_tag ('clock.png') %>
+							</div>
+							<h3 class="value-text">Deploy intances in Second<h3>
+						    <p class="value-text align">Latest generation Intel CPUs guarantee consistent performance</p>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="feature-list border">
+							<div class="feature-img">
+                                <%= image_tag ('network.png') %>
+							</div>
+							<h3 class="value-text">Lighting Fast Network<h3>
+						    <p  class="value-text align">Each main server has a fault tolerant and redundant 40Gbps network to ensure uptime and throughput</p>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="feature-list">
+							<div class="feature-img">
+                                <%= image_tag ('contract.png') %>
+							</div>
+							<h3 class="value-text">No long term contracts<h3>
+						    <p class="value-text align">Spin up and spin down with ease with Straightforward pricing when you use our platform</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+          <%= image_tag ('clouds.png'), class:"cloud-img" %>              
 	</section>

@@ -536,9 +536,6 @@ h5.sub{
     padding:25px 0px 25px 0px;
 }
 
-.footer-info{
-	
-}
 
 .footer-info h3{
     font-size:12px;
@@ -560,8 +557,6 @@ h5.sub{
 	margin-bottom: 10px;
 	margin-right: 8px;
 	float:left;
-	padding:3px 5px 3px 5px
-	border-right:1px solid #e1e5e9;
 
 }
 
@@ -572,7 +567,6 @@ h5.sub{
 	font-family: 'Istok Web', sans-serif;
 	text-transform: capitalize;
 	text-decoration: none;
-	
 }
 
 .footer-info ul li a:hover{

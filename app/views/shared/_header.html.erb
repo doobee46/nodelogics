@@ -1,7 +1,4 @@
-<div class="overhead">
-	
-</div>
-<section class="header">
+<section class="header" id="home">
 	<div class="container">
 		<div class="header-wrapper">
 			<div class="col-md-1">
@@ -10,16 +7,10 @@
 			<div class="col-md-8">
 				<div class="nav_bar">
 					<ul>
-					    <% unless @title=="home" %>
-						<li><%= link_to root_path do %>
-						<%= fa_icon "home" %>Home
-						<%end%>
-						<%end%>
+						<li><a href="#home"><i class="fa fa-home" aria-hidden="true"></i></a></li>
 						<li><a href="#features">Features</a></li>
 						<li><a href="#list-pricing">Pricing</a></li>
-						<li><%= link_to "Hosting",hosting_path %></li>
-						<!--<li><a href="http://bit.ly/2cUuHF4"></a></li>-->
-						<li><a href="#">Backup</a></li>
+						<li><%= link_to "Blog",blogit_path%></li>
 					</ul>
 				</div>
 			</div>

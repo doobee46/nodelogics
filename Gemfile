@@ -28,6 +28,10 @@ gem 'rails-i18n', '~> 4.0.0' # for Rails 4
 gem 'google-webfonts-rails', '~> 0.0.4'
 gem "font-awesome-rails"
 gem "cookie_alert"
+#gem "blogit"
+# Blogit depends on ActsAsTaggableOn
+#gem "acts-as-taggable-on"
+gem 'piwik_analytics', '~> 1.0.1'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'

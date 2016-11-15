@@ -108,6 +108,11 @@ body{
    height: 48px;
 }
 
+.btn-simple:hover{
+	color:rgba(51,51,51,1);
+
+}
+
 .btn-primary-sm{
    background: #00D936/*#003E5B*/;
    color:#fff;

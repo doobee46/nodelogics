@@ -6,6 +6,7 @@ Rails.application.routes.draw do
   get "login" => "pages#login", as: :login
   get "terms" => "pages#terms", as: :terms
   mount CookieAlert::Engine => "/cookie-alert"
+  #mount Blogit::Engine => "/blog"
   
  
 

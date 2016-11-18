@@ -27,7 +27,7 @@ gem 'thin'
 gem 'rails-i18n', '~> 4.0.0' # for Rails 4 
 gem 'google-webfonts-rails', '~> 0.0.4'
 gem "font-awesome-rails"
-gem "cookie_alert"
+gem 'cookies_eu'
 #gem "blogit"
 # Blogit depends on ActsAsTaggableOn
 #gem "acts-as-taggable-on"

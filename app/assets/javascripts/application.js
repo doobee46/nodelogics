@@ -12,8 +12,8 @@
 //
 //= require jquery
 //= require jquery_ujs
+//= require cookies_eu
 //= require turbolinks
-//= require cookie_alert
 //= require_tree .
 
 $(document).ready(function() {
@@ -29,4 +29,4 @@ $(document).ready(function() {
       }
     }
   });
-});
+});//= require cookies_eu

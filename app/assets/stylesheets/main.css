@@ -1,7 +1,10 @@
-html{
-	text-rendering: optimizeLegibility;
-	
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+    text-rendering: optimizeLegibility;
 }
+
 body{
  padding-top:86px;
 }
@@ -37,7 +40,7 @@ body{
 .nav_bar ul li a {
 	display:block;
 	padding:0 12px;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Varela round', sans-serif;
 	font-size:14px;
 	letter-spacing:0pt;
 	line-height:120%;
@@ -68,7 +71,7 @@ body{
 .login_menu ul li a.btn {
 	text-transform: capitalize;
 	text-decoration: none;
-	font-family: 'Josefin Sans', sans-serif;
+	font-family: 'varela round', sans-serif;
 	font-weight:400;
 	font-size: 16px;
 }
@@ -155,7 +158,7 @@ a.btn.btn-primary-sm{
 }
 
 .info h1{
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Varela round', sans-serif;
 	font-size:42px;
 	line-height:120%;
 	font-weight:bold;
@@ -166,7 +169,7 @@ a.btn.btn-primary-sm{
 }
 
 .info h2{
-	font-family: 'Josefin Sans', sans-serif;
+	font-family: 'varela round', sans-serif;
 	font-size:25px;
 	line-height:120%;
 	font-weight:300;
@@ -176,7 +179,7 @@ a.btn.btn-primary-sm{
 }
 
 .info h3{
-	font-family: 'Josefin Sans', sans-serif;
+	font-family: 'varela round', sans-serif;
 	font-size:18px;
 	line-height:120%;
 	font-weight:300;
@@ -191,7 +194,7 @@ a.btn.btn-primary-sm{
 }*/
 
 .info a{
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Varela round', sans-serif;
 	font-size:17px;
 	letter-spacing:1pt;
 	font-weight:600;
@@ -272,7 +275,7 @@ a.btn.btn-primary-sm{
 }
 
 .feature-list h3{
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Varela round', sans-serif;
 	font-size:19px;
 	line-height:120%;
 	font-weight:bold;
@@ -282,7 +285,7 @@ a.btn.btn-primary-sm{
 }
 
 .feature-list p{
-	font-family: 'Istok Web', sans-serif;
+	font-family: 'varela round', sans-serif;
 	font-size:14px;
 	line-height:140%;
 	font-weight:normal;
@@ -331,7 +334,7 @@ a.btn.btn-primary-sm{
 	letter-spacing:1 px;
 	text-transform: uppercase;
 	letter-spacing: 1px;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Varela round', sans-serif;
 	color: #fff;
 	margin-bottom: 35px;
 }
@@ -360,7 +363,7 @@ a.btn.btn-primary-sm{
 	color:#fff;
 	margin-top:45px;
 	letter-spacing: 1px;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Varela round', sans-serif;
 	text-transform:capitalize;
 }
 
@@ -412,11 +415,11 @@ a.btn.btn-primary-sm{
 	letter-spacing:1 px;
 	text-transform: uppercase;
 	letter-spacing: 1px;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Varela round', sans-serif;
 }
 
 .price-list h6{
-	font-family: 'Istok Web', sans-serif;
+	font-family: 'varela round', sans-serif;
 	font-size:12px;
 	line-height:120%;
 	font-weight:normal;
@@ -435,7 +438,7 @@ a.btn.btn-primary-sm{
 }
 
 .price h1{
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Varela round', sans-serif;
 	font-size:18px;
 	line-height:120%;
 	font-weight:normal;
@@ -452,7 +455,7 @@ a.btn.btn-primary-sm{
 	font-weight:bold;
 	color:rgb(25,152,223);
 	text-align:center;
-	font-family: 'Istok Web', sans-serif;
+	font-family: 'varela round', sans-serif;
 }
 
 .price p span{
@@ -460,7 +463,7 @@ a.btn.btn-primary-sm{
 	line-height:120%;
 	font-weight:normal;
 	color:rgb(25,152,223);
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Varela round', sans-serif;
 }
 
 .bar{
@@ -481,7 +484,7 @@ a.btn.btn-primary-sm{
 }
 
 .price_features ul li{
-	ffont-family: 'Istok Web', sans-serif;
+	ffont-family: 'varela round', sans-serif;
 	font-size:18px;
 	font-weight:600;
 	line-height:120%;
@@ -491,7 +494,7 @@ a.btn.btn-primary-sm{
 }
 
 .price_features ul li span{
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Varela round', sans-serif;
 	font-size:16px;
 	font-weight:normal;
 	line-height:120%;
@@ -500,7 +503,7 @@ a.btn.btn-primary-sm{
 }
 
 .price a{
-	font-family: 'Istok Web', sans-serif;
+	font-family: 'varela round', sans-serif;
 	font-size:14px;
 	letter-spacing:1pt;
 	font-weight:600;
@@ -511,7 +514,11 @@ a.btn.btn-primary-sm{
   	margin:0 auto;
   	height:45px;
     line-height: 45px;
+    text-decoration: none;
+}
 
+.price a:hover{
+    color:#23527C;
 }
 
 .order_btn{
@@ -522,7 +529,7 @@ a.btn.btn-primary-sm{
 }
 
 .notation{
-	font-family: 'Istok Web', sans-serif;
+	font-family: 'varela round', sans-serif;
 	font-size: 12px;
 	line-height: 120%;
 	font-weight: normal;
@@ -535,19 +542,18 @@ a.btn.btn-primary-sm{
 }
 
 
-.openvz_wrapper{
-	width: 680px;
-	margin:0 auto;
-	font-size:16px;
-	text-align:center;
-
-}
-
-
 h5.sub{
    font-size:19px;
    margin-bottom:5px;
    text-transform: uppercase;
+   text-align: center;
+}
+
+
+.main_notation{
+	width: 680px;
+	text-align: center;
+	margin:0 auto;
 }
 
 
@@ -558,7 +564,7 @@ h5.sub{
 }
 
 .custom a{
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Varela round', sans-serif;
 	font-size: 14px;
 	letter-spacing: 1pt;
 	font-weight: 600;
@@ -570,88 +576,49 @@ h5.sub{
 }
 
 .custom p{
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Varela round', sans-serif;
 	font-size: 14px;
 	text-align:center;
 	text-transform: uppercase;
 }
 
-/********************Footer styles***************************************/
-.main_footer{
-	background-color:rgb(19,41,61);
-    width:100%;
-    height:auto;
-    display: block;
-    padding:25px 0px 25px 0px;
-}
-
-
-.footer-info h3{
-    font-size:12px;
-	font-weight:600;
-	line-height:120%;
-	color:rgb(255,255,255);
-	text-align:left;
-	font-family: 'Montserrat', sans-serif;
-	margin-left:5px;
-}
-
-.footer-info ul{
-	list-style-type: none;
-	margin:0; padding: 0;
-}
-
-.footer-info ul li{
-	display: block;
-	margin-bottom: 10px;
-	margin-right: 8px;
-	float:left;
-
-}
-
-.footer-info ul li a{
-	font-size:14px;
-	line-height:120%;
-	color:rgba(255,255,255 ,0.7);
-	font-family: 'Istok Web', sans-serif;
-	text-transform: capitalize;
-	text-decoration: none;
-}
-
-.footer-info ul li a:hover{
-	color:rgba(255,255,255 ,1);
-}
-
-.copyright{
-	margin-top:0px;
+.cta{
 	width: 100%;
+	padding: 45px;
+    border-top: 1px solid #ecf0f2;
+    background: #fff;
+    height: 320px;
+}
+
+.cta-wrapper{
 	margin:0 auto;
+    position:relative;
+    top:25px;
 }
 
-.copyright h1{
-	font-size:10px;
-	line-height:120%;
-	font-weight:bold;
-	color:rgb(255,255,255);
-	margin-left:0px;
-	text-transform:uppercase;
-	font-family: 'Montserrat', sans-serif;
+.cta-wrapper h3{
+	font-family: 'varela round', sans-serif;
+	font-size: 26px;
+	line-height: 120%;
+	font-weight: bold;
+	color: #13293D;
+	text-align: center;
+	text-transform: uppercase;
+	
 }
 
-.copyright h5{
-	font-size:12px;
-	line-height:120%;
-	font-weight:normal;
-	color:rgb(255,255,255);
-    margin-top:-5px;
-    margin-left:0px;
-    font-family: 'Istok Web', sans-serif;
+.cta-btn{
+	width: 250px;
+    margin: 0 auto;
+    position: relative;
+    top: 15px; 
 }
 
-.footer_bar{
-	background-color:rgb(27,152,224);
-    width:100%;
-    height:8px;
-    display: block;
+.cta-btn a{
+	font-size: 18px;
+	font-family: 'varela round', sans-serif;
+	text-decoration: none;
+	font-size: bold;
+	text-transform: uppercase;
+	letter-spacing: 1px;
 }
-

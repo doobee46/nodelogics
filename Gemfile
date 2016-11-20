@@ -33,6 +33,7 @@ gem 'ckeditor', '~> 4.1'
 gem 'devise'
 gem 'carrierwave'
 gem 'mini_magick'
+gem 'friendly_id'
 
 #gem "blogit"
 # Blogit depends on ActsAsTaggableOn

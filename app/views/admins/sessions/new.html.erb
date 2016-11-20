@@ -1,15 +1,28 @@
-<h2>Log in</h2>
 
-<%= simple_form_for(resource, as: resource_name, url: session_path(resource_name)) do |f| %>
-  <div class="form-inputs">
-    <%= f.input :email, required: false, autofocus: true %>
-    <%= f.input :password, required: false %>
-    <%= f.input :remember_me, as: :boolean if devise_mapping.rememberable? %>
-  </div>
-
-  <div class="form-actions">
-    <%= f.button :submit, "Log in" %>
-  </div>
-<% end %>
-
-<%= render "admins/shared/links" %>
+<% @title = 'login' %>
+<body class="login-bg">
+<section>
+		<div class="container">
+			<div class="brand-login">
+			    
+			</div>
+			<div class="form-wrapper">
+				
+				<%= simple_form_for(resource, as: resource_name, url: session_path(resource_name)) do |f| %>
+			    <%= f.input :email, placeholder: "Email", required: true, autofocus: true,input_html: { class: 'input' },label:false %>
+			    <%= f.input :password, placeholder: "Password",required: false,input_html: { class: 'input' }, label:false %>
+			    <%= f.input :remember_me, as: :boolean if devise_mapping.rememberable? %>
+							
+				<div class="action">
+					<%= f.button :submit, "Log in" , class:'btn btn-success'%>
+				</div>
+				<div class="form-footer">
+					<h3>D'ont have an account <span><%= render "admins/shared/links" %></span></h3>
+				</div>
+				<% end %>
+			</div>
+			
+		</div>
+	</section>
+	<div class="separator-login">
+</div>

@@ -80,6 +80,12 @@ body{
    color:#fff;
 }
 
+.rocket{
+	position: relative;
+	bottom: 228px;
+	float: right;
+}
+
 .btn {
 	display: inline-block;
 	overflow: visible;
@@ -94,6 +100,8 @@ body{
 	cursor: pointer;
 	line-height: 48px;
 }
+
+
 
 
 .btn-primary{

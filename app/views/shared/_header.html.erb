@@ -17,12 +17,17 @@
 			<div class="col-md-3">
 				<div class="login_menu">
 					<ul>
-					    <% if @title=="hosting"%>
-						<li><%= link_to "Log in",login_path,:class=>"btn btn-simple"%></li>
-						<li><a  class="btn btn-primary" href="https://bit.ly/2d4p3Pt">sign up</a></li>
-						<%else%>
-						<li><a  class="btn btn-simple btn-inverse" href="https://hosting.nodelogics.com/auth/login">Control Panel</a></li>
-						<%end%>
+					    
+                        <% if params[:controller] =='posts' %>
+                        	<%if admin_signed_in? %>
+                            <li><%= link_to 'Logout', destroy_admin_session_path, :method => :delete,:class=>"btn btn-simple btn-inverse" %></li>
+                            <% else %>
+                            <li><%= link_to 'Login', new_admin_session_path,:class=>"btn btn-simple btn-inverse"  %></li>
+                            <% end %>
+                        <% else %>
+                            <li><a  class="btn btn-simple btn-inverse" href="https://hosting.nodelogics.com/auth/login">Control Panel</a></li>
+                        <% end %>
+                       					    
 					</ul>
 				</div>
 			</div>

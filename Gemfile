@@ -30,6 +30,9 @@ gem "font-awesome-rails"
 gem 'cookies_eu'
 gem 'simple_form', '~> 3.2'
 gem 'ckeditor', '~> 4.1'
+gem 'devise'
+gem 'carrierwave'
+gem 'mini_magick'
 
 #gem "blogit"
 # Blogit depends on ActsAsTaggableOn

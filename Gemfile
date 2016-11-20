@@ -28,6 +28,9 @@ gem 'rails-i18n', '~> 4.0.0' # for Rails 4
 gem 'google-webfonts-rails', '~> 0.0.4'
 gem "font-awesome-rails"
 gem 'cookies_eu'
+gem 'simple_form', '~> 3.2'
+gem 'ckeditor', '~> 4.1'
+
 #gem "blogit"
 # Blogit depends on ActsAsTaggableOn
 #gem "acts-as-taggable-on"

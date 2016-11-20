@@ -1,10 +1,14 @@
 Rails.application.routes.draw do
+  mount Ckeditor::Engine => '/ckeditor'
   root 'pages#index'
    
   get "index"=> 'pages#index', as: :portal
   get "hosting" =>'pages#hosting', as: :hosting
   get "login" => "pages#login", as: :login
   get "terms" => "pages#terms", as: :terms
+  get "blog"  => "posts#index", as: :blog
+
+  resources :posts
  
   #mount Blogit::Engine => "/blog"
   

@@ -14,8 +14,8 @@ class PostsController < ApplicationController
 
 	  # Create action saves the post into database
 	  def create
-	    @post = Post.new
-	    if @post.save(post_params)
+	     @post = Post.create(post_params)
+	    if @post.save
 	      flash[:notice] = "Successfully created post!"
 	      redirect_to post_path(@post)
 	    else
@@ -41,6 +41,7 @@ class PostsController < ApplicationController
 
 	  # The show action renders the individual post after retrieving the the id
 	  def show
+	  	@post = Post.friendly.find(params[:id])
 	  end
 
 	  # The destroy action removes the post permanently from the database
@@ -60,7 +61,7 @@ class PostsController < ApplicationController
 	  end
 
 	  def find_post
-	    @post = Post.find(params[:id])
+	    @post = Post.friendly.find(params[:id])
 	  end
 
 end

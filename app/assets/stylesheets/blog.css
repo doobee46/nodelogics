@@ -28,7 +28,7 @@
 .post-separator{
 	width: 150px;
 	height: 3px;
-	background-color: #1ABC9C;
+	background-color: #5CC9DF;
 	margin:0 auto;
 	position: relative;
 	top:-20px;
@@ -40,7 +40,7 @@
 }
 
 .post-body p{
-    font-size:22px;
+    font-size:18px;
 	font-family: 'varela round', sans-serif;
 	line-height: 120%;
 	text-align: justify ;

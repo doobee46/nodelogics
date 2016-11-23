@@ -26,7 +26,6 @@ namespace :deploy do
       execute :touch, release_path.join('tmp/restart.txt')
     end
   end
-  after 'deploy:symlink:shared'
   after :publishing, 'deploy:restart'
   after :finishing, 'deploy:cleanup'
 end

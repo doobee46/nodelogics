@@ -38,9 +38,8 @@ namespace :rails do
   end
 end
 
-namespace :db do
- 
-  task :all => [:environment, :drop, :create, :migrate] do
+namespace :db do 
+  task :all => [:drop, :create, :migrate] do
   end
 end
 

@@ -38,6 +38,12 @@ namespace :rails do
   end
 end
 
+namespace :db do
+ 
+  task :all => [:environment, :drop, :create, :migrate] do
+  end
+end
+
 namespace :deploy do
 
   desc 'Restart application'

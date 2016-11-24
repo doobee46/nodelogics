@@ -18,17 +18,23 @@ set(:symlinks, [
 ])
 
 namespace :rails do
-  desc 'Open a rails console `cap [staging] rails:console [server_index default: 0]`'
-  task :console do    
-    server = roles(:app)[ARGV[2].to_i]
+  desc "Remote console"
+  task :console do
+    on roles(:app) do |h|
+      run_interactively "bundle exec rails console #{fetch(:rails_env)}", h.user
+    end
+  end
 
-    puts "Opening a console on: #{server.hostname}...."
+  desc "Remote dbconsole"
+  task :dbconsole do
+    on roles(:app) do |h|
+      run_interactively "bundle exec rails dbconsole #{fetch(:rails_env)}", h.user
+    end
+  end
 
-    cmd = "ssh #{server.user}@#{server.hostname} -t 'cd #{fetch(:deploy_to)}/current && RAILS_ENV=#{fetch(:rails_env)} bundle exec rails console'"
-
-    puts cmd
-
-    exec cmd
+  def run_interactively(command, user)
+    info "Running `#{command}` as #{user}@#{host}"
+    exec %Q(ssh #{user}@#{host} -t "bash --login -c 'cd #{fetch(:deploy_to)}/current && #{command}'")
   end
 end
 

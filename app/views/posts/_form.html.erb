@@ -1,29 +1,24 @@
-<%= simple_form_for (@post) do |f| %>
-  <% if @post.errors.any? %>
-    <div id="error_explanation">
-      <h2>
-        <%= "#{pluralize(@post.errors.count, "error")} prohibited this post from being saved:" %>
-      </h2>
-      <ul>
-        <% @post.errors.full_messages.each do |msg| %>
-          <li>
-            <%= msg %>
-          </li>
-          <% end %>
-      </ul>
-    </div>
+<% @title = 'publish' %>
+  <%= simple_form_for (@post) do |f| %>
+    <% if @post.errors.any? %>
+      <div id="error_explanation">
+        <h2>
+          <%= "#{pluralize(@post.errors.count, "error")} prohibited this post from being saved:" %>
+        </h2>
+        <ul>
+          <% @post.errors.full_messages.each do |msg| %>
+            <li>
+              <%= msg %>
+            </li>
+            <% end %>
+        </ul>
+      </div>
+    <% end %>
+    <%= f.input :title, placeholder: "Title", required: true, autofocus: true,input_html: { class: 'input' },label:false %>
+    <%= f.input :body, :as => :ckeditor, input_html: {:ckeditor => {:toolbar => 'FULL'}, class: 'input' },label:false%>
+        
+  <div class="action">
+    <%= f.button :submit, class:'btn btn-primary'%>
+  </div>
   <% end %>
-
-  <div>
-    <%= f.input :title %>
-  </div>
-
-  <div>
-    <%= f.input :body, :as => :ckeditor, input_html: {:ckeditor => {:toolbar => 'FULL'}}%>
-  </div>
-
-  <div>
-    <%= f.button :submit, class:'btn btn-simple' %>
-  </div>
-  
-<% end %>
+  <div class="separator-login"></div>

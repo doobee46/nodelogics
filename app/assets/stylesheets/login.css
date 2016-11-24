@@ -18,8 +18,8 @@ body.login-bg{
 
 .form-wrapper{
 	width: 380px;
-	height:412px;
-	padding: 35px 25px 25px 22px;
+	height:auto;
+	padding: 10px 25px 35px 22px;
 	display: block;
 	background: rgb(255,255,255);
 	margin:0 auto;
@@ -75,7 +75,7 @@ body.login-bg{
 .action{
 	margin: 0 auto;
 	position: relative;
-	top: 35px;
+	top: 10px;
 }
 
 .action h3 a{
@@ -92,7 +92,7 @@ body.login-bg{
 .form-footer{
 	margin: 0 auto;
 	position: relative;
-	top: 60px;
+	top: 15px;
 	width: 250px;
 }
 
@@ -117,3 +117,23 @@ body.login-bg{
 .separator-login{
 	margin-bottom: 40px;
 }
+
+.form-wrapper h3{
+	color:#444;
+	font-family: 'varela round', sans-serif;
+	font-size:14px;
+    text-align:center;
+}
+
+input[type='checkbox']#admin_remember_me{
+	margin-right: 5px;
+	position: relative;
+	top: 3px;
+}
+
+label.checkbox{
+	color:#0D6A9B;
+	font-family: 'varela round', sans-serif;
+	font-size:14px;
+}
+

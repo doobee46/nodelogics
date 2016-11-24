@@ -4,6 +4,7 @@ class Post < ActiveRecord::Base
   #This validates presence of body
   #validates :body, presence: true
   #validates :author, presence: true
+  belongs_to :admin
 
   extend FriendlyId
   friendly_id :title, use: :slugged

@@ -4,14 +4,14 @@
 <section>
 		<div class="container">
 			<div class="brand-login">
-			    
+
 			</div>
 			<div class="form-wrapper">
-				
+				<h3>Welcome admin , Please Sign In </h3>
 				<%= simple_form_for(resource, as: resource_name, url: session_path(resource_name)) do |f| %>
 			    <%= f.input :email, placeholder: "Email", required: true, autofocus: true,input_html: { class: 'input' },label:false %>
 			    <%= f.input :password, placeholder: "Password",required: false,input_html: { class: 'input' }, label:false %>
-			    <%= f.input :remember_me, as: :boolean if devise_mapping.rememberable? %>
+			    <%= f.input :remember_me, as: :boolean ,:label => false, :inline_label => true if devise_mapping.rememberable? %>
 							
 				<div class="action">
 					<%= f.button :submit, "Log in" , class:'btn btn-success'%>

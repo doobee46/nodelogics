@@ -1,15 +1,24 @@
-<h2>Forgot your password?</h2>
-
-<%= simple_form_for(resource, as: resource_name, url: password_path(resource_name), html: { method: :post }) do |f| %>
-  <%= f.error_notification %>
-
-  <div class="form-inputs">
-    <%= f.input :email, required: true, autofocus: true %>
-  </div>
-
-  <div class="form-actions">
-    <%= f.button :submit, "Send me reset password instructions" %>
-  </div>
-<% end %>
-
-<%= render "admins/shared/links" %>
+<% @title = 'Reset password' %>
+<body class="login-bg">
+<section>
+		<div class="container">
+			<div class="brand-login">
+			</div>
+			<div class="form-wrapper">
+				<h3>Forgot your password?</h3>			    
+				<%= simple_form_for(resource, as: resource_name, url: password_path(resource_name), html: { method: :post }) do |f| %>
+				 <%= f.error_notification %>
+				 <%= f.input :email, required: true, autofocus: true, placeholder: "Email", required: true, autofocus: true,input_html: { class: 'input' },label:false %>
+			
+				<div class="action">
+					<%= f.button :submit, "Send me my password " , class:'btn btn-success'%>
+				</div>
+				<div class="form-footer">
+					<h3>Have an account <span> | <%= render "admins/shared/links" %></span></h3>
+				</div>
+				<% end %>
+			</div>		
+		</div>
+	</section>
+	<div class="separator-login">
+</div>

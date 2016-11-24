@@ -6,9 +6,23 @@
 .post-wrapper{
 	width: 960px;
 	position: relative;
-	top:60px;
+	top:40px;
 	margin:0 auto 60px;
 }
+
+.post-wrapper h3{
+    color:#444;
+	font-family: 'varela round', sans-serif;
+	font-size:28px;
+    text-align:center
+
+}
+
+.show-post-wrapper{
+	position: relative;
+	top:-45px;
+}
+
 .new-post{
 	margin-top: 50px;
 }
@@ -53,7 +67,7 @@
 	top:-25px;
 }
 
-.more a{
+.post-body p a{
 	font-size:18px;
 	font-family: 'varela round', sans-serif;
 	color:#1ABC9C;
@@ -61,7 +75,7 @@
     text-decoration: none !important;  
 }
 
-.more a:hover{
+.post-body p a:hover{
 	color:#35497D !important;
 }
 
@@ -75,3 +89,4 @@
 .new-post a:hover{
 	color:#35497D !important
 }
+

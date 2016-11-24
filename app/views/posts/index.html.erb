@@ -15,17 +15,19 @@
       </div>
       <div class="post-separator"></div>
       <div class="post-body">
-        <p><%= raw(post.body).truncate(358) %></p>
+        <p><%= raw post.body.truncate(600) %></p>
       </div>
+      <br>
       <div class="more">
         <%= link_to "(More...)", post_path(post) %>
         <% if admin_signed_in?%>
         <%= link_to "Edit", edit_post_path(post)%>
+        <%= link_to "| Delete", edit_post_path(post), data: { confirm: "Are you sure?" }, method: :delete %>
         <% end %>
       </div>      
     </div>
     <%end%>    
-  </div>  
+  </div> 
 </section>
 
 

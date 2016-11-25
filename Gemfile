@@ -34,6 +34,7 @@ gem 'devise'
 gem 'carrierwave'
 gem 'mini_magick'
 gem 'friendly_id'
+gem 'capistrano-rails-collection'
 
 #gem "blogit"
 # Blogit depends on ActsAsTaggableOn

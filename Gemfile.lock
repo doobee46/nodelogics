@@ -54,6 +54,8 @@ GEM
     capistrano-rails (1.1.8)
       capistrano (~> 3.1)
       capistrano-bundler (~> 1.1)
+    capistrano-rails-collection (0.1.0)
+      capistrano-rails (~> 1.1)
     capistrano-rvm (0.1.2)
       capistrano (~> 3.0)
       sshkit (~> 1.2)
@@ -237,6 +239,7 @@ DEPENDENCIES
   capistrano-bundler (~> 1.1.2)
   capistrano-passenger
   capistrano-rails (~> 1.1.1)
+  capistrano-rails-collection
   capistrano-rvm (~> 0.1.2)
   carrierwave
   ckeditor (~> 4.1)

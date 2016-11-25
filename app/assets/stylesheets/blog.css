@@ -18,6 +18,13 @@
 
 }
 
+.post-wrapper h5{
+	color:#1ABC9C;
+	font-family: 'varela round', sans-serif;
+	font-size:14px;
+    text-align:left;
+}
+
 .show-post-wrapper{
 	position: relative;
 	top:-45px;

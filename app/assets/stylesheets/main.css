@@ -214,7 +214,7 @@ a.btn.btn-primary-sm{
 	position: relative;
   	/*margin:0 auto;*/
   	height:65px;
-    line-height: 60px;
+    line-height:65px;
 
 }
 
@@ -631,4 +631,38 @@ h5.sub{
 	font-size: bold;
 	text-transform: uppercase;
 	letter-spacing: 1px;
+}
+
+.pdf-wrapper{
+	width: 960px;
+	position: relative;
+	top:60px;
+	margin:0 auto 90px;
+}
+
+.pdf-wrapper iframe{
+	margin-bottom: 25px;
+}
+
+.pdf-wrapper h3{
+    color:#444;
+	font-family: 'Open sans', sans-serif;
+	font-size:22px;
+    text-align:center;
+    text-transform: capitalize;
+}
+.pdf-wrapper a{
+	font-size: 16px;
+	font-family: 'varela round', sans-serif;
+	text-decoration: none;
+}
+
+.plan-btn{
+	display: inline;
+	float: left
+	
+}
+
+.link-btn{
+	float: right;
 }

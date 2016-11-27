@@ -9,6 +9,7 @@ class PagesController < ApplicationController
   end
 
   def terms
+      @plan=params[:plan]
   end
 
   def AUP

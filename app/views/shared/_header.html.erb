@@ -24,10 +24,10 @@
                             <% else %>
                             <li><%= link_to 'Login', new_admin_session_path,:class=>"btn btn-simple btn-inverse"  %></li>
                             <% end %>
+                        <% elsif params[:controller] == 'pages' && params[:action] == 'terms'%>
                         <% else %>
                             <li><a  class="btn btn-simple btn-inverse" href="https://hosting.nodelogics.com/auth/login">Control Panel</a></li>
-                        <% end %>
-                       					    
+                        <% end %>                       					    
 					</ul>
 				</div>
 			</div>

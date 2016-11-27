@@ -6,11 +6,18 @@
         <h3>terms of service </h3>
         <iframe src="/terms.pdf" height="720" width="960px"></iframe>
         <% if @plan == "beginner"%>
+          <div class="plan-btn">
             <a href="/" class="btn btn-primary">Disagree</a>
+          <div class="link-btn">
             <a href="http://bit.ly/2gztClW" class="btn btn-primary two">Agree</a>
+          </div>   
         <% elsif @plan == "power_user" %>
-            <a href="/" class="btn btn-primary">Disagree</a>
+          <div class="plan-btn">
+             <a href="/" class="btn btn-primary">Disagree</a>
+          </div>
+          <div class="link-btn">
             <a href="http://bit.ly/2gMtTop" class="btn btn-primary ">Agree</a>
+          </div>
         <% elsif @plan == "elite" %>
           <div class="plan-btn">
             <a href="/" class="btn btn-primary">Disagree</a>

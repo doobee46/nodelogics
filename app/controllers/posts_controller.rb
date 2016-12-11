@@ -1,5 +1,5 @@
 class PostsController < ApplicationController
-	  before_action :find_post, only: [:edit, :update, :delete]
+	  before_action :find_post, only: [:edit, :update, :destroy]
 	  before_action :authenticate_admin!, except: [:index, :show]
 
 	  # Index action to render all posts

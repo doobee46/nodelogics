@@ -74,6 +74,15 @@
 	top:-25px;
 }
 
+.more a {
+    font-size:18px;
+	font-family: 'varela round', sans-serif;
+	color:#1ABC9C;
+    letter-spacing: 1px; 
+    text-decoration: none !important;
+
+}
+
 .post-body p a{
 	font-size:18px;
 	font-family: 'varela round', sans-serif;

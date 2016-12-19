@@ -86,94 +86,52 @@
 			</div>
 			<h6>Pricing in USD. Excludes any applicable tax.</h6>
 			<div class="table-wrapper">
-				<div class="list-wrapper one">
-					<div class="price-bar">
-						<h3>BEGINNER</h3>
-					</div>
-					<p><span>FREE</span></p>
-					  <div class="price_features">
-						<ul>
-							<li>20GB <span>HD</span></li>
-							<li>512MB <span>Memory</span></li>
-							<li>1 Core <span>Processor</span></li>
-							<li>250GB <span>Transfer</span></li>
-						</ul>
-					</div>
-					<div class='order_btn'>
-						<a href="#" class="btn btn-primary ">Deploy</a>
-					</div>
-				</div>
-				<div class="list-wrapper two ">
-					<div class="price-bar">
-						<h3>STARTER</h3>
-					</div>
-                    <p><span>$3</span>/mo</p>
-                    <div class="price_features">
-						<ul>
-							<li>30GB <span>HD</span></li>
-							<li>1GB <span>Memory</span></li>
-							<li>1 Core <span>Processor</span></li>
-							<li>1TB <span>Transfer</span></li>
-						</ul>
-					</div>
-					<div class='order_btn'>
-						<a href="#" class="btn btn-primary ">Deploy</a>
-					</div>
-				</div>
+			    <% @plans.each do |plan| %>
+			    <% if plan.popular == true %>
 				<div class="list-wrapper three popular ">
+				<%else%>
+				<% if plan.id == 1%>
+				<div class="list-wrapper one" >	
+				<% elsif plan.id == 2 %>
+				<div class="list-wrapper two" >	
+				<% elsif plan.id == 4 %>
+				<div class="list-wrapper four" >
+				<% elsif plan.id == 5 %>
+				<div class="list-wrapper five" >	
+				<%end%>	                                       	
+				<%end%>
+				    <% if plan.popular == true %>
 					<div class="price-bar" id="popular">
-						<h3>POWER</h3>
+						<h3><%=plan.name%></h3>
 					</div>
-					<p><span>$5</span>/mo</p>
+					<% else %>
+					<div class="price-bar">
+						<h3><%=plan.name%></h3>
+					</div>
+					<%end%>
+					<%if plan.price == 0 %>
+					<p><span>FREE</span></p>
+					<%else%>
+					<p><span>$<%=plan.price%></span>/mo</p>
+					<%end%>
+					<%if plan.popular == true %>
 					<div class="pop-flag">
 						<h3>most popular</h3>
 					</div>
-					  <div class="price_features">
+					<% end %>
+					<div class="price_features">
 						<ul>
-							<li>40GB <span>HD</span></li>
-							<li>2GB <span>Memory</span></li>
-							<li>1 Core <span>Processor</span></li>
-							<li>1TB <span>Transfer</span></li>
+							<li><%=plan.ssd%>GB <span>HD</span></li>
+							<li><%=plan.memory%>MB <span>Memory</span></li>
+							<li><%=plan.processor%>Core <span>Processor</span></li>
+							<li><%=plan.transfer%>GB <span>Transfer</span></li>
 						</ul>
-					</div>
+					</div>					
 					<div class='order_btn'>
-						<a href="#" class="btn btn-primary ">Deploy</a>
-					</div> 
+						<a href="https://hosting.nodelogics.com/auth/register?redirect=/machines/new?plan_id=<%=plan.id%>" class="btn btn-primary ">Deploy</a>
+					</div>		
 				</div>
-				<div class="list-wrapper four">
-					<div class="price-bar">
-						<h3>ELITE</h3>
-					</div>
-					<p><span>$8</span>/mo</p>
-					  <div class="price_features">
-						<ul>
-							<li>60GB <span>HD</span></li>
-							<li>2GB <span>Memory</span></li>
-							<li>2 Core <span>Processors</span></li>
-							<li>1TB <span>Transfer</span></li>
-						</ul>
-					</div>
-					<div class='order_btn'>
-						<a href="#" class="btn btn-primary ">Deploy</a>
-					</div>
-				</div>
-				<div class="list-wrapper five">
-					<div class="price-bar">
-						<h3>MASTER</h3>
-					</div>
-					<p><span>$10</span>/mo</p>
-					  <div class="price_features">
-						<ul>
-							<li>80GB <span>HD</span></li>
-							<li>4GB <span>Memory</span></li>
-							<li>2 Core <span>Processors</span></li>
-							<li>1TB <span>Transfer</span></li>
-						</ul>
-					</div>
-					<div class='order_btn'>
-						<a href="#" class="btn btn-primary ">Deploy</a>
-					</div>
-				</div>
+				<%end%>			
 			</div>
 		</div>		
 	</div>
@@ -181,7 +139,7 @@
         <p class="notation">**Based on KVM virtualiztion technology .All resources are guaranteed under the limits of the available resources.</p>
 	</div>
 	
-	<div class="container">
+	<!--<div class="container">
 	    <div class="openvz_wrapper">
 		    <h5 class="sub">Specialized Dedicated Servers</h5>
          </div>
@@ -232,7 +190,7 @@
 			</div>
 	    </div>	
 	</div>
-</section>
+</section>-->
 	<section class="value" id="features">
 		<div class="container">
 			<div class="value-item">

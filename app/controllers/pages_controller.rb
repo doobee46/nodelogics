@@ -1,5 +1,6 @@
 class PagesController < ApplicationController
   def index
+      @plans =Plan.all
   end
 
   def hosting
@@ -9,10 +10,6 @@ class PagesController < ApplicationController
   end
 
   def terms
-      @plan=params[:plan]
-  end
-
-  def AUP
   end
 
     

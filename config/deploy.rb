@@ -1,5 +1,5 @@
 # config valid only for Capistrano 3.1
-load 'lib/deploy/seed'
+load 'lib/deploy/seed.rb'
 lock '3.4.1'
 
 set :application, 'nodelogics'

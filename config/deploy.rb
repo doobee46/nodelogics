@@ -1,4 +1,5 @@
 # config valid only for Capistrano 3.1
+load 'lib/deploy/seed'
 lock '3.4.1'
 
 set :application, 'nodelogics'
@@ -29,10 +30,3 @@ namespace :deploy do
   after :finishing, 'deploy:cleanup'
 end
 
-namespace :rake do  
-  desc "Run a task on a remote server."  
-  # run like: cap staging rake:invoke task=a_certain_task  
-  task :invoke do  
-    run("cd #{deploy_to}/current; /usr/bin/env rake #{ENV['task']} RAILS_ENV=#{rails_env}")  
-  end  
-end

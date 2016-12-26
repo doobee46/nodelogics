@@ -4,11 +4,12 @@ class PostsController < ApplicationController
 
 	  # Index action to render all posts
 	  def index
-	    @posts = Post.all
-	  end
+	  	@q = Post.ransack(params[:q])
+	    @posts = @q.result
+	   
+ 	  end
 
-	  # New action for creating post
-	  def new
+ 	  def new
 	    @post = Post.new
 	  end
 

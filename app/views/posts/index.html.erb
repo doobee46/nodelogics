@@ -1,4 +1,17 @@
 <% @title = "blog" %>
+<section class="blog-jumbo">
+  <div class="container">
+    <div class="blog-wrapper">
+      <h1>Tutorials and Guides</h1>
+      <div class="search-wrapper">
+        <%= search_form_for @q do |f| %>
+          <%= f.search_field :title_cont, placeholder: "Search guides....", required: true, autofocus: true,input_html: { class: 'search'},label:false %>
+          <%= f.button "" , class:'submit' %>
+        <% end %>
+      </div>
+    </div>  
+  </div> 
+</section>
 <section class="blog-posts">
   <div class="container">
     <% if admin_signed_in?%>

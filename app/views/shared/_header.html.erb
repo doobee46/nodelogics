@@ -20,13 +20,19 @@
 					    
                         <% if params[:controller] =='posts' %>
                         	<%if admin_signed_in? %>
-                            <li><%= link_to 'Logout', destroy_admin_session_path, :method => :delete,:class=>"btn btn-simple btn-inverse" %></li>
+                            <li>
+                            	<%= link_to 'Logout', destroy_admin_session_path, :method => :delete,:class=>"btn btn-simple btn-inverse" %>
+                            </li>
                             <% else %>
-                            <li><%= link_to 'Login', new_admin_session_path,:class=>"btn btn-simple btn-inverse"  %></li>
+                            <li>
+                            	<%= link_to 'Login', new_admin_session_path,:class=>"btn btn-simple btn-inverse" %>
+                            </li>
                             <% end %>
                         <% elsif params[:controller] == 'pages' && params[:action] == 'terms'%>
                         <% else %>
-                            <li><a  class="btn btn-simple btn-inverse" href="https://hosting.nodelogics.com/auth/login">Control Panel</a></li>
+                            <li>
+	                            <a  class="btn btn-simple btn-inverse" href="https://hosting.nodelogics.com/auth/login">Control Panel</a>
+                            </li>
                         <% end %>                       					    
 					</ul>
 				</div>

@@ -12,5 +12,11 @@ class PagesController < ApplicationController
   def terms
   end
 
+  def welcome
+  end
+
+  def about_us
+  end
+
     
 end

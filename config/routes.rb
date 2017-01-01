@@ -3,13 +3,15 @@ Rails.application.routes.draw do
   mount Ckeditor::Engine => '/ckeditor'
   devise_for :admins
 
-  root 'pages#index'
+  root 'pages#welcome'
    
-  get "index"   => 'pages#index', as: :portal
-  get "hosting" => 'pages#hosting', as: :hosting
-  get "login"   => "pages#login", as: :login
-  get "terms"   => "pages#terms", as: :terms
-  get "Guides"  => "posts#index", as: :blog
+  get "portal"  => 'pages#index',    as: :portal
+  get "hosting" => 'pages#hosting',  as: :hosting
+  get "login"   => "pages#login",    as: :login
+  get "terms"   => "pages#terms",    as: :terms
+  get "guides"  => "posts#index",    as: :blog
+  get "welcome" => "pages#welcome",  as: :welcome
+  get "about"   => "pages#about_us", as: :about
 
   resources :posts
  

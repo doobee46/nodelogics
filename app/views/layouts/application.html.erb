@@ -42,7 +42,11 @@
   <!--<p class="notice"><%= notice %></p>
   <p class="alert"><%= alert %></p>-->  
 <body>
+  <% if params[:controller] =='pages' && params[:action]== 'welcome' %>
+  <%=render :partial =>'shared/welcomeHeader'%>
+  <% else %>
   <%=render :partial =>'shared/header'%>
+  <% end %>
 <%= yield %>
   <%=render :partial =>'shared/footer'%>
 

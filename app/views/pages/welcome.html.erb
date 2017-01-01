@@ -1,0 +1,25 @@
+<% @title = "Welcome"%>
+<section class="welcome">
+	<div class="container">
+		<div class="wel_wrapper">
+			<h3>Welcome | Bienvenue | Bienvenido </h3>
+			<div class="locale">
+				<h3>Please choose your destination</h3>
+				<ul>
+					<li>
+						<%=image_tag("US_flag.png")%>
+						<%=link_to 'United States ', portal_path %>
+					</li>
+					<li>
+						<%=image_tag("HT_flag.png")%>
+						<%=link_to 'Haiti ', portal_path %>
+					</li>
+					<li>
+						<%=image_tag("DR_flag.png")%>
+						<%=link_to 'Rep. Dominicana', portal_path %>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</section>

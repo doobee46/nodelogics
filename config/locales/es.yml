@@ -29,3 +29,31 @@ es:
       backup: "Desde $5.00/GB por mes"
       hosting: "Desde $19.00 por mes"
       cloud: "Desde $3.00 por mes"
+  demo:
+    under: "5 minutos de implementación del servidor"
+  pricing:
+    main: "Planes de alojamiento en nube para todos"
+    sub: "Precios sencillos"
+    notation: "Nuestros servidores VPS están equipados con el hardware más reciente de Intel con almacenamiento protegido por Enterprise Raid para un alto rendimiento. Cada VPS incluye nuestras características avanzadas para actualizaciones instantáneas, protección DDOS, red de 160Gbps y soporte 24/7."
+    disclaimer: "Precios en USD. Excluye cualquier impuesto aplicable."
+  price:
+    popular: "más popular"
+    hd: "HD"
+    memory: "memoria"
+    processor: "procesador"
+    transfer: "transferencia"
+    links:
+      deploy: "lanzar"
+    note: "**Basado en la tecnología de virtualización KVM. Todos los recursos están garantizados bajo los límites de los recursos disponibles."
+  advantage:
+    main: "Nuestra Ventaja"
+    second: "Implementar instancias en segundo"
+    cpu: "Las CPU de última generación de Intel garantizan un rendimiento consistente."
+    network: "Red super rapida"
+    uptime: "Cada servidor principal tiene una red de 40 Gbps tolerante a fallos y redundante para garantizar el tiempo de actividad y rendimiento maximo"
+    contract: "Sin contratos a largo plazo"
+    scale: "Gire hacia arriba y gire hacia abajo con facilidad con precios sencillos cuando utilice nuestra plataforma"
+  action:
+    main: "Inicie su servidor de nube en segundos"
+    links:
+      launch: "Lanzar ahora"

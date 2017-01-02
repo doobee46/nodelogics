@@ -50,4 +50,31 @@ en:
       backup: "Starting $5.00/GB monthly"
       hosting: "Starting $19.00 monthly"
       cloud: "Starting $3.00 monthly"
-    
+  demo:
+    under: "Under 5mns Server deployment"
+  pricing:
+    main: "Cloud Hosting Plans for Everyone"
+    sub: "Straightforward Pricing"
+    notation: "Our VPS Servers are powered by the latest Intel Hardware  with Enterprise Raid protected storage for high performance. Each VPS includes our advanced features for instant upgrades, DDOS protection, 160Gbps network and 24/7 Support."
+    disclaimer: "Pricing in USD. Excludes any applicable tax."
+  price:
+    popular: "most popular"
+    hd: "HD"
+    memory: "memory"
+    processor: "processor"
+    transfer: "transfer"
+    links:
+      deploy: "deploy"
+    note: "**Based on KVM virtualiztion technology .All resources are guaranteed under the limits of the available resources."
+  advantage:
+    main: "Nodelogics Advantage"
+    second: "Deploy intances in Second"
+    cpu: "Latest generation Intel CPUs guarantee consistent performance."
+    network: "Lighting Fast Network"
+    uptime: "Each main server has a fault tolerant and redundant 40Gbps network to ensure uptime and throughput"
+    contract: "No long term contracts"
+    scale: "Spin up and spin down with ease with Straightforward pricing when you use our platform"
+  action:
+    main: "Launch your cloud server in seconds"
+    links:
+      launch: "Deploy now"

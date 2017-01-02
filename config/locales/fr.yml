@@ -29,11 +29,31 @@ fr:
       backup: "À partir de $5.00/GB par mois"
       hosting: "À partir de $19,00 par mois"
       cloud: "A partir $3.00 par mois"
-
-
-
-
-    
-
-
-
+  demo:
+    under: "Déploiement rapide en moins 5mmns"
+  pricing:
+    main: "large choix de possibilités"
+    sub: "Prix directs"
+    notation: "Nos serveurs VPS sont alimentés par le dernier matériel Intel avec Enterprise Raid de stockage protégé pour une performance élevée. Chaque VPS comprend nos fonctionnalités avancées pour les mises à jour instantanées, la protection DDOS, le réseau 160Gbps et le support 24/7."
+    disclaimer: "Prix en USD. Exclut toute taxe applicable."
+  price:
+    popular: "Plan Populaire"
+    hd: "HD"
+    memory: "memoire"
+    processor: "processeur"
+    transfer: "transfert"
+    links:
+      deploy: "Deployer"
+    note: "**Basé sur la technologie de virtualisation KVM. Toutes les ressources sont garanties dans les limites des ressources disponibles."
+  advantage:
+    main: "Avantage de Notre reseau"
+    second: "Déployer des instances rapidement"
+    cpu: "Les processeurs Intel de dernière génération garantissent des performances constantes."
+    network: "Reseaux Super Rapide"
+    uptime: "Chaque serveur principal dispose d'un réseau de 40 Gbit / s tolérant les pannes et redondant pour assurer la disponibilité et le débit maximal"
+    contract: "Pas de contrats à long terme"
+    scale: "Mettre à niveau votre serveur avec facilité, avec un tarif simple lorsque vous utilisez notre plateforme"
+  action:
+    main: "Lancez votre serveur cloud en secondes"
+    links:
+      launch: "Deployer maintenant"

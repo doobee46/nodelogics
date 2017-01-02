@@ -62,7 +62,7 @@
 <section class="demo">
 	<div class="container">
 		<div class="demo-wrapper">
-		<h3>Under 5mns Server deployment</h3>
+		<h3><%= t('demo.under') %></h3>
 			<div class="video-frame">
 			    <%=image_tag ('terminal_header.png'), class:"browser_head" %>
 				<%=image_tag('nodelogics.gif')%>
@@ -79,12 +79,12 @@
 			<div class="price_wrapper">
 				<!--<img src='img/smallservers.png' class="small_server" alt="small server"/>-->
 			</div>
-			<h3>Cloud Hosting Plans for Everyone</h3>
+			<h3><%= t('pricing.main') %></h3>
 			<div class="openvz_wrapper">
-			    <h5 class="sub">Straightforward Pricing</h5>
-	            <p class="main_notation">Our VPS Servers are powered by the latest Intel Hardware  with Enterprise Raid protected storage for high performance. Each VPS includes our advanced features for instant upgrades, DDOS protection, 160Gbps network and 24/7 Support.</p>
+			    <h5 class="sub"><%= t('pricing.sub') %></h5>
+	            <p class="main_notation">O<%= t('pricing.notation') %></p>
 			</div>
-			<h6>Pricing in USD. Excludes any applicable tax.</h6>
+			<h6><%= t('pricing.disclaimer') %></h6>
 			<div class="table-wrapper">
 			    <% @plans.each do |plan| %>
 			    <% if plan.popular == true %>
@@ -116,19 +116,19 @@
 					<%end%>
 					<%if plan.popular == true %>
 					<div class="pop-flag">
-						<h3>most popular</h3>
+						<h3><%= t('price.popular') %></h3>
 					</div>
 					<% end %>
 					<div class="price_features">
 						<ul>
-							<li><%=plan.ssd%>GB <span>HD</span></li>
-							<li><%=plan.memory%>MB <span>Memory</span></li>
-							<li><%=plan.processor%>Core <span>Processor</span></li>
-							<li><%=plan.transfer%>GB <span>Transfer</span></li>
+							<li><%=plan.ssd%>GB <span><%= t('price.hd') %></span></li>
+							<li><%=plan.memory%>MB <span><%= t('price.memory') %></span></li>
+							<li><%=plan.processor%>Core <span><%= t('price.processor') %></span></li>
+							<li><%=plan.transfer%>GB <span><%= t('price.transfer') %></span></li>
 						</ul>
 					</div>					
 					<div class='order_btn'>
-						<a href="https://hosting.nodelogics.com/auth/register?redirect=/machines/new?plan_id=<%=plan.id%>" class="btn btn-primary ">Deploy</a>
+						<a href="https://hosting.nodelogics.com/auth/register?redirect=/machines/new?plan_id=<%=plan.id%>" class="btn btn-primary "><%= t('price.links.deploy') %></a>
 					</div>		
 				</div>
 				<%end%>			
@@ -136,7 +136,7 @@
 		</div>		
 	</div>
 	<div class="container">
-        <p class="notation">**Based on KVM virtualiztion technology .All resources are guaranteed under the limits of the available resources.</p>
+        <p class="notation"><%= t('price.note') %></p>
 	</div>
 	
 	<!--<div class="container">
@@ -194,15 +194,15 @@
 	<section class="value" id="features">
 		<div class="container">
 			<div class="value-item">
-				<h1>Nodelogics Advantage</h1>
+				<h1><%= t('advantage.main') %></h1>
 				<div class="wrapper">
 					<div class="col-md-4">
 						<div class="feature-list border">
 							<div class="feature-img">
                                 <%= image_tag ('clock.png') %>
 							</div>
-							<h3 class="value-text">Deploy intances in Second<h3>
-						    <p class="value-text align">Latest generation Intel CPUs guarantee consistent performance</p>
+							<h3 class="value-text"><%= t('advantage.second') %><h3>
+						    <p class="value-text align"><%= t('advantage.cpu') %></p>
 						</div>
 					</div>
 					<div class="col-md-4">
@@ -210,8 +210,8 @@
 							<div class="feature-img">
                                 <%= image_tag ('network.png') %>
 							</div>
-							<h3 class="value-text">Lighting Fast Network<h3>
-						    <p  class="value-text align">Each main server has a fault tolerant and redundant 40Gbps network to ensure uptime and throughput</p>
+							<h3 class="value-text"><%= t('advantage.network') %><h3>
+						    <p  class="value-text align"><%= t('advantage.uptime') %></p>
 						</div>
 					</div>
 					<div class="col-md-4">
@@ -219,8 +219,8 @@
 							<div class="feature-img">
                                 <%= image_tag ('contract.png') %>
 							</div>
-							<h3 class="value-text">No long term contracts<h3>
-						    <p class="value-text align">Spin up and spin down with ease with Straightforward pricing when you use our platform</p>
+							<h3 class="value-text"><%= t('advantage.contract') %><h3>
+						    <p class="value-text align"><%= t('advantage.scale') %></p>
 						</div>
 					</div>
 				</div>
@@ -231,10 +231,10 @@
 	<section class="cta">
 		<div class="container">
 			<div class="cta-wrapper">
-				<h3>Launch your cloud server in seconds</h3>
+				<h3><%= t('action.main') %></h3>
 			</div>
 			<div class='cta-btn'>
-			<a href="http://bit.ly/2g5VL2u" class="btn btn-primary ">Deploy Now<i class="fa fa-arrow-right" aria-hidden="true"></i>
+			<a href="http://bit.ly/2g5VL2u" class="btn btn-primary "><%= t('action.links.launch') %><i class="fa fa-arrow-right" aria-hidden="true"></i>
 </a>
 			</div>	
 		</div>

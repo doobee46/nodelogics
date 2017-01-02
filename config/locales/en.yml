@@ -20,4 +20,6 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
-  hello: "Hello world"
+  welcome: "Simple. Powerful. Reliable."
+  performance: "High Performance Cloud Server"
+  launch: "KVM based instance for launch in seconds"

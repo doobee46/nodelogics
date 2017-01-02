@@ -3,7 +3,9 @@ class ApplicationController < ActionController::Base
   # For APIs, you may want to use :null_session instead.
   protect_from_forgery with: :exception
 
-   before_action :configure_permitted_parameters, if: :devise_controller?
+  before_action :set_locale
+
+  before_action :configure_permitted_parameters, if: :devise_controller?
 
   def after_sign_in_path_for(resource)
     new_post_path
@@ -12,6 +14,17 @@ class ApplicationController < ActionController::Base
   def after_sign_out_path_for(resource_or_scope)
     posts_path
   end 
+
+ def set_locale
+    if cookies[:educator_locale] && I18n.available_locales.include?(cookies[:educator_locale].to_sym)
+      l = cookies[:educator_locale].to_sym
+    else
+      l = I18n.default_locale
+      cookies.permanent[:educator_locale] = l
+    end
+    I18n.locale = l
+  end
+ 
 
   protected
 

@@ -38,6 +38,7 @@ gem 'capistrano-rails-collection'
 gem 'ransack'
 
 
+
 #gem "blogit"
 # Blogit depends on ActsAsTaggableOn
 #gem "acts-as-taggable-on"

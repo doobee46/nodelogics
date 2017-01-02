@@ -13,6 +13,7 @@ Rails.application.routes.draw do
   get "guides"  => "posts#index",    as: :blog
   get "welcome" => "pages#welcome",  as: :welcome
   get "about"   => "pages#about_us", as: :about
+  get '/change_locale/:locale', to: 'settings#change_locale', as: :change_locale
 
   resources :posts
  

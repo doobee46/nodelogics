@@ -3,11 +3,11 @@
 	<div class="container">
 	    <div class="col-md-6">
 	        <div class="info">
-	           <h1><%= t('welcome') %></h1>
-			   <h2><%= t('performance') %></h1>
-			   <h3><%= t('launch') %></h3>
+	           <h1><%= t('index.welcome') %></h1>
+			   <h2><%= t('index.performance') %></h1>
+			   <h3><%= t('index.launch') %></h3>
 			   <div class="btn-wrapper">
-			       <%=link_to 'Deploy a server', terms_path, :class =>'btn btn-primary btn-shadow'%>
+			       <%=link_to t('index.links.deploy'), terms_path, :class =>'btn btn-primary btn-shadow'%>
 			   </div>
 			</div>	
 	    </div>
@@ -22,17 +22,17 @@
 <section class="product">
 	<div class="container">
 		<div class="features">
-			<h1>Our Product Offering</h1>
-			<h3>Simple. Powerful. Reliable.</h3>
+			<h1><%= t('product.offer') %></h1>
+			<h3><%= t('product.welcome') %></h3>
 			<div class="wrapper">
 				<div class="col-md-4">
 					<div class="feature-list border">
 						<div class="feature-img">
                             <%= image_tag ('server.png') %>
 						</div>
-						<h3>Cloud Servers<h3>
-					    <p>Our powerful compute instances are perfect for your web application staging and quick development environment.</p>
-					    <a href=""> Starting $5.00 monthly</a>
+						<h3><%= t('feature.cloud') %><h3>
+					    <p><%= t('feature.instance') %></p>
+					    <a href=""><%= t('feature.links.cloud') %></a>
 					</div>
 				</div>
 				<div class="col-md-4">
@@ -40,9 +40,9 @@
 						<div class="feature-img">
 							<%= image_tag ('hosting.png')%>
 						</div>
-						<h3>Pro Hosting<h3>
-					    <p>Nodelogics includes a vast array of tools and guarantees with each reseller hosting plan purchase. Fromsite-building tools and script installers</p>
-					    <a href="">Starting $19 monthly</a>
+						<h3><%= t('feature.reseller') %><h3>
+					    <p><%= t('feature.include') %></p>
+					    <a href=""><%= t('feature.links.hosting') %></a>
 					</div>
 				</div>
 				<div class="col-md-4">
@@ -50,9 +50,9 @@
 						<div class="feature-img">
                             <%= image_tag ('backup.png') %>
 						</div>
-						<h3>Cloud Backup<h3>
-					    <p>Your files will be protected with the security of the nodelogics cloud lined with amazon S3 storage and, of course, it’s accessible from anywhere</p>
-					    <a href="">Starting $5/GB per User</a>
+						<h3><%= t('feature.hosting') %><h3>
+					    <p><%= t('feature.info') %></p>
+					    <a href=""><%= t('feature.links.backup') %></a>
 					</div>
 				</div>
 			</div>

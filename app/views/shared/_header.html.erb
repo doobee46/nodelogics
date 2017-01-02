@@ -2,15 +2,15 @@
 	<div class="container">
 		<div class="header-wrapper">
 			<div class="col-md-1">
-				<a href="/"><%= image_tag ('logo_v7.png'), class:"logo" %></a>
+				<a href="/portal"><%= image_tag ('logo_v7.png'), class:"logo" %></a>
 			</div>
 			<div class="col-md-8">
 				<div class="nav_bar">
 					<ul>
-						<li><a href="/"><i class="fa fa-home" aria-hidden="true"></i></a></li>
-						<li><a href="#features">Features</a></li>
-						<li><a href="#list-pricing">Pricing</a></li>
-						<li><%=link_to'Guides',posts_path%>
+						<li><a href="/portal"><i class="fa fa-home" aria-hidden="true"></i></a></li>
+						<li><a href="#features"><%= t('nav.feature') %></a></li>
+						<li><a href="#list-pricing"><%= t('nav.pricing') %></a></li>
+						<li><%=link_to t('nav.links.guide'),posts_path%>
 					</ul>
 				</div>
 			</div>
@@ -21,17 +21,17 @@
                         <% if params[:controller] =='posts' %>
                         	<%if admin_signed_in? %>
                             <li>
-                            	<%= link_to 'Logout', destroy_admin_session_path, :method => :delete,:class=>"btn btn-simple btn-inverse" %>
+                            	<%= link_to t('nav.menu.links.logout'), destroy_admin_session_path, :method => :delete,:class=>"btn btn-simple btn-inverse" %>
                             </li>
                             <% else %>
                             <li>
-                            	<%= link_to 'Login', new_admin_session_path,:class=>"btn btn-simple btn-inverse" %>
+                            	<%= link_to t('nav.menu.links.login'), new_admin_session_path,:class=>"btn btn-simple btn-inverse" %>
                             </li>
                             <% end %>
                         <% elsif params[:controller] == 'pages' && params[:action] == 'terms'%>
                         <% else %>
                             <li>
-	                            <a  class="btn btn-simple btn-inverse" href="https://hosting.nodelogics.com/auth/login">Control Panel</a>
+	                            <a  class="btn btn-simple btn-inverse" href="https://hosting.nodelogics.com/auth/login"><%= t('nav.menu.links.control') %></a>
                             </li>
                         <% end %>                       					    
 					</ul>

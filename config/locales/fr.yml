@@ -1,4 +1,39 @@
 fr:
-  welcome: "Simple. Puissant. Fiable."
-  performance: "Serveur Cloud haute performance"
-  launch: "Instances basées sur KVM pour lancement rapide "
+  nav:
+    feature: "Fonctions"
+    pricing: "Prix" 
+    links: 
+      guide: "guides"
+    menu:
+      links:
+        logout: "Deconnecter"
+        login: "Connecter"
+        control: "Dashboard"
+  index: 
+    welcome: "Simple. Puissant. Fiable."
+    performance: "Serveur Cloud haute performance"
+    launch: "Instances basées sur KVM pour lancement rapide"
+    links:
+        deploy: "Déployer serveur"
+  product: 
+    offer: "Nos offre de Produit"
+    welcome: "Simple. Puissant. Fiable."
+  feature:
+    cloud: "Serveurs Prive"
+    instance: "Nos puissantes instances de calcul sont parfaites pour votre mise en scène d'applications Web et votre environnement de développement rapide."
+    reseller: "Hébergement Pro"
+    include: "Nodelogics inclut une vaste gamme d'outils et de garanties avec chaque achat de plan d'hébergement revendeur. À partir d'outils de création de site et d'installateurs de scripts"
+    backup: "Backup Storage"
+    info: "Vos fichiers seront protégés par la sécurité du cloud nodelogics, bordé de stockage Amazon S3, et bien sûr, accessible de n'importe où."
+    links:
+      backup: "À partir de $5.00/GB par mois"
+      hosting: "À partir de $19,00 par mois"
+      cloud: "A partir $3.00 par mois"
+
+
+
+
+    
+
+
+

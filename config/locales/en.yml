@@ -20,6 +20,34 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
-  welcome: "Simple. Powerful. Reliable."
-  performance: "High Performance Cloud Server"
-  launch: "KVM based instance for launch in seconds"
+  nav:
+    feature: "Features"
+    pricing: "Pricing" 
+    links: 
+      guide: "guides"
+    menu: 
+      links:
+        logout: "logout"
+        login: "login"
+        control: "control Panel"
+  index: 
+    welcome: "Simple. Powerful. Reliable."
+    performance: "High Performance Cloud Server"
+    launch: "KVM based instance for launch in seconds"
+    links:
+      deploy: "Deploy a server"
+  product: 
+    offer: "Our Product Offering"
+    welcome: "Simple. Powerful. Reliable."
+  feature:
+    cloud: "Cloud Servers"
+    instance: "Our powerful compute instances are perfect for your web application staging and quick development environment."
+    reseller: "Pro Hosting"
+    include: "Nodelogics includes a vast array of tools and guarantees with each reseller hosting plan purchase. Fromsite-building tools and script installers"
+    backup: "Cloud Backup"
+    info: "Your files will be protected with the security of the nodelogics cloud lined with amazon S3 storage and, of course, it’s accessible from anywhere"
+    links:
+      backup: "Starting $5.00/GB monthly"
+      hosting: "Starting $19.00 monthly"
+      cloud: "Starting $3.00 monthly"
+    

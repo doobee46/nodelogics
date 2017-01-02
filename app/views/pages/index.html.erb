@@ -82,7 +82,7 @@
 			<h3><%= t('pricing.main') %></h3>
 			<div class="openvz_wrapper">
 			    <h5 class="sub"><%= t('pricing.sub') %></h5>
-	            <p class="main_notation">O<%= t('pricing.notation') %></p>
+	            <p class="main_notation"><%= t('pricing.notation') %></p>
 			</div>
 			<h6><%= t('pricing.disclaimer') %></h6>
 			<div class="table-wrapper">
@@ -112,7 +112,7 @@
 					<%if plan.price == 0 %>
 					<p><span>FREE</span></p>
 					<%else%>
-					<p><span>$<%=plan.price%></span>/mo</p>
+					<p><span>$<%=plan.price%></span><%= t('price.frequency') %></p>
 					<%end%>
 					<%if plan.popular == true %>
 					<div class="pop-flag">
@@ -121,10 +121,22 @@
 					<% end %>
 					<div class="price_features">
 						<ul>
-							<li><%=plan.ssd%>GB <span><%= t('price.hd') %></span></li>
-							<li><%=plan.memory%>MB <span><%= t('price.memory') %></span></li>
-							<li><%=plan.processor%>Core <span><%= t('price.processor') %></span></li>
-							<li><%=plan.transfer%>GB <span><%= t('price.transfer') %></span></li>
+							<li>
+							<i class="fa fa-hdd-o" aria-hidden="true"></i>
+							<%=plan.ssd%>GB <span> <%= t('price.hd') %></span>
+							</li>
+							<li>
+							<i class="fa fa-microchip" aria-hidden="true"></i>
+							<%=plan.memory%>MB<span> <%= t('price.memory') %></span>
+							</li>
+							<li>
+							<i class="fa fa-microchip" aria-hidden="true"></i>
+							<%=plan.processor%>Core <span> <%= t('price.processor') %></span>
+							</li>
+							<li>
+							<i class="fa fa-exchange" aria-hidden="true"></i>
+							<%=plan.transfer%>GB <span> <%= t('price.transfer') %></span>
+							</li>
 						</ul>
 					</div>					
 					<div class='order_btn'>
@@ -202,7 +214,7 @@
                                 <%= image_tag ('clock.png') %>
 							</div>
 							<h3 class="value-text"><%= t('advantage.second') %><h3>
-						    <p class="value-text align"><%= t('advantage.cpu') %></p>
+						    <p class="value-text"><%= t('advantage.cpu') %></p>
 						</div>
 					</div>
 					<div class="col-md-4">
@@ -211,7 +223,7 @@
                                 <%= image_tag ('network.png') %>
 							</div>
 							<h3 class="value-text"><%= t('advantage.network') %><h3>
-						    <p  class="value-text align"><%= t('advantage.uptime') %></p>
+						    <p  class="value-text"><%= t('advantage.uptime') %></p>
 						</div>
 					</div>
 					<div class="col-md-4">
@@ -220,7 +232,7 @@
                                 <%= image_tag ('contract.png') %>
 							</div>
 							<h3 class="value-text"><%= t('advantage.contract') %><h3>
-						    <p class="value-text align"><%= t('advantage.scale') %></p>
+						    <p class="value-text"><%= t('advantage.scale') %></p>
 						</div>
 					</div>
 				</div>

@@ -387,7 +387,7 @@ a.btn.btn-primary-sm{
 
 .value-text{
 	color:#fff !important;
-	text-align: left !important;
+	/*text-align: left !important;*/
 }
 
 .align{
@@ -572,12 +572,13 @@ a.btn.btn-primary-sm{
 
 .price_features ul {
 	list-style-type: none;
-	margin: 0 ; padding: 0;
+	margin: 0 auto; 
+	padding: 0;
 }
 
 .price_features ul li{
 	font-family: 'Varela round', sans-serif;
-	font-size:18px;
+	font-size:14px;
 	font-weight:600;
 	line-height:120%;
 	color:rgb(68,68,68);
@@ -587,11 +588,11 @@ a.btn.btn-primary-sm{
 
 .price_features ul li span{
 	font-family: 'Varela round', sans-serif;
-	font-size:16px;
+	font-size:12px;
 	font-weight:normal;
 	line-height:120%;
 	color:rgb(68,68,68);
-	text-align:center;
+	text-align:left;
 }
 
 
@@ -606,7 +607,7 @@ a.btn.btn-primary-sm{
 
 .list-wrapper.three.popular .price_features ul li{
 	font-family: 'Varela round', sans-serif;
-	font-size:18px;
+	font-size:14px;
 	font-weight:600;
 	line-height:120%;
 	color:rgb(255,255,255);
@@ -616,7 +617,7 @@ a.btn.btn-primary-sm{
 
 .list-wrapper.three.popular .price_features ul li span{
 	font-family: 'Varela round', sans-serif;
-	font-size:16px;
+	font-size:12px;
 	font-weight:normal;
 	line-height:120%;
 	color:rgb(255,255,255);
@@ -667,10 +668,11 @@ a.btn.btn-primary-sm{
 	background-color: #0CB863;
 }
 
-
 .order_btn{
 	width:127px;
 	margin: 0 auto;
+	position: relative;
+	top: 20px;
 }
 
 .list-wrapper.three.popular .order_btn{

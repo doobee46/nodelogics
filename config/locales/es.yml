@@ -38,10 +38,11 @@ es:
     disclaimer: "Precios en USD. Excluye cualquier impuesto aplicable."
   price:
     popular: "más popular"
-    hd: "HD"
+    hd: "SSD"
     memory: "memoria"
     processor: "procesador"
     transfer: "transferencia"
+    frequency: "/mes"
     links:
       deploy: "lanzar"
     note: "**Basado en la tecnología de virtualización KVM. Todos los recursos están garantizados bajo los límites de los recursos disponibles."

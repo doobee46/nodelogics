@@ -19,7 +19,7 @@ fr:
     offer: "Nos offre de Produit"
     welcome: "Simple. Puissant. Fiable."
   feature:
-    cloud: "Serveurs Prive"
+    cloud: "Serveur virtuel privé"
     instance: "Nos puissantes instances de calcul sont parfaites pour votre mise en scène d'applications Web et votre environnement de développement rapide."
     reseller: "Hébergement Pro"
     include: "Nodelogics inclut une vaste gamme d'outils et de garanties avec chaque achat de plan d'hébergement revendeur. À partir d'outils de création de site et d'installateurs de scripts"
@@ -30,24 +30,25 @@ fr:
       hosting: "À partir de $19,00 par mois"
       cloud: "A partir $3.00 par mois"
   demo:
-    under: "Déploiement rapide en moins 5mmns"
+    under: "Déploiement rapide en moins 5mns"
   pricing:
     main: "large choix de possibilités"
     sub: "Prix directs"
-    notation: "Nos serveurs VPS sont alimentés par le dernier matériel Intel avec Enterprise Raid de stockage protégé pour une performance élevée. Chaque VPS comprend nos fonctionnalités avancées pour les mises à jour instantanées, la protection DDOS, le réseau 160Gbps et le support 24/7."
+    notation: "Nos serveurs virtuels sont alimentés par le dernier matériel Intel avec Enterprise Raid de stockage protégé pour une performance élevée. Chaque VPS comprend nos fonctionnalités avancées pour les mises à jour instantanées, la protection DDOS, le réseau 160Gbps et le support 24/7."
     disclaimer: "Prix en USD. Exclut toute taxe applicable."
   price:
     popular: "Plan Populaire"
-    hd: "HD"
+    hd: "SSD"
     memory: "memoire"
     processor: "processeur"
     transfer: "transfert"
+    frequency: "/mois"
     links:
       deploy: "Deployer"
     note: "**Basé sur la technologie de virtualisation KVM. Toutes les ressources sont garanties dans les limites des ressources disponibles."
   advantage:
     main: "Avantage de Notre reseau"
-    second: "Déployer des instances rapidement"
+    second: "Déploiement rapide"
     cpu: "Les processeurs Intel de dernière génération garantissent des performances constantes."
     network: "Reseaux Super Rapide"
     uptime: "Chaque serveur principal dispose d'un réseau de 40 Gbit / s tolérant les pannes et redondant pour assurer la disponibilité et le débit maximal"

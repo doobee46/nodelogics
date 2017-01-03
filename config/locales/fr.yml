@@ -10,14 +10,14 @@ fr:
         login: "Connecter"
         control: "Dashboard"
   index: 
-    welcome: "Simple. Puissant. Fiable."
+    welcome: "Simple. Puissant. Efficace."
     performance: "Serveur Cloud haute performance"
     launch: "Instances basées sur KVM pour lancement rapide"
     links:
         deploy: "Déployer serveur"
   product: 
     offer: "Nos offre de Produit"
-    welcome: "Simple. Puissant. Fiable."
+    welcome: "Simple. Puissant. Efficace."
   feature:
     cloud: "Serveur virtuel privé"
     instance: "Nos puissantes instances de calcul sont parfaites pour votre mise en scène d'applications Web et votre environnement de développement rapide."

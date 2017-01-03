@@ -10,14 +10,14 @@ es:
         login: "Entrar"
         control: "Dashboard"
   index: 
-    welcome: "Sencillo. Poderoso. Confianza."
+    welcome: "Sencillo. Eficaz. Poderoso."
     performance: "Servidor de nube de alto rendimiento"
-    launch: "Servidores basados en KVM para su lanzamiento en segundos"
+    launch: "basados en KVM para su lanzamiento rapido"
     links:
         deploy: "lanzar servidor"
   product: 
     offer: "Nuestra oferta de productos"
-    welcome: "Sencillo. Poderoso. Confianza."
+    welcome: "Sencillo. Eficaz. Poderoso."
   feature:
     cloud: "servidor virtual"
     instance: "Nuestras poderosas instancias de computación son perfectas para la puesta en escena de aplicaciones web y el entorno de desarrollo rápido."

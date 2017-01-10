@@ -5,18 +5,22 @@ Rails.application.routes.draw do
   devise_for :admins
 
   root 'pages#welcome'
-   
-  get "portal"  => 'pages#index',    as: :portal
+
+  get "welcome" => "pages#welcome",  as: :welcome
+  get '/change_locale/:locale', to: 'settings#change_locale', as: :change_locale
   get "hosting" => 'pages#hosting',  as: :hosting
   get "login"   => "pages#login",    as: :login
   get "terms"   => "pages#terms",    as: :terms
-  get "guides"  => "posts#index",    as: :blog
-  get "welcome" => "pages#welcome",  as: :welcome
+  get "guides"  => "posts#index",    as: :blog    
   get "about"   => "pages#about_us", as: :about
-  get '/change_locale/:locale', to: 'settings#change_locale', as: :change_locale
-
+  get "portal"  => 'pages#index',    as: :portal
+  get "faq"     => 'pages#faq',      as: :faq
+    
   resources :posts
+
  
+
+  
   #mount Blogit::Engine => "/blog"
   
  

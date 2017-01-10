@@ -22,9 +22,10 @@
 en:
   nav:
     feature: "Features"
-    pricing: "Pricing" 
+    pricing: "Pricing"
     links: 
       guide: "guides"
+      faq:   "faq" 
     menu: 
       links:
         logout: "logout"
@@ -79,3 +80,19 @@ en:
     main: "Launch your cloud server in seconds"
     links:
       launch: "Deploy now"
+  faq:
+    title: "frequently Asked Questions"
+    first: "How am I billed?"
+    firstanswer: "Billing is automatic at the end of your billing month.The resources you have allocated to servers in your Cloud are calculated and billed monthly"
+    second: "How much does it cost to start?"
+    secondanswer: "It costs only $1 to purchase a cloud. Your $1 payment will be added as an Account Credit."
+    third:  "Am I billed for offline servers?"
+    thirdanswer: "Yes, we do not currently offer server off pricing."
+    fourth: "Do you offer Windows?"
+    fourthanswer: "Not at this time , coming soon"
+    fifth: "Do you offer refunds?"
+    fifthanswer: "We are very transparent about our Refund Policy; We encourage you to read our TOS."
+    sixth: "Can I cancel at any time?"
+    sixthanswer: "Yes, you can cancel at any time, there are no contracts."
+    seventh: "What payment methods do you accept?"
+    seventhanswer: "We accept Visa, MasterCard, American Express, Discover and PayPal."

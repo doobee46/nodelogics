@@ -4,6 +4,7 @@ fr:
     pricing: "Prix" 
     links: 
       guide: "guides"
+      faq:   "Faq"
     menu:
       links:
         logout: "Deconnecter"
@@ -58,3 +59,19 @@ fr:
     main: "Lancez votre serveur cloud en secondes"
     links:
       launch: "Deployer maintenant"
+  faq:
+    title: "foire aux questions"
+    first: "Comment vous facturez?"
+    firstanswer: "La facturation est automatique à la fin de votre mois de facturation. Les ressources que vous avez affectées aux serveurs de votre Cloud sont calculées et facturées mensuellement"
+    second: "Combien cela coûte-t-il de commencer?"
+    secondanswer: "ca coute seulement $3, Le coût de $3 est ajouté à titre de crédit de compte."
+    third:  "Est-ce que je suis facturé pour les serveurs hors connexion?"
+    thirdanswer: "Oui, nous n'offrons pas actuellement de prix pour serveur hors connexion."
+    fourth: "Offrez-vous Windows"
+    fourthanswer: "Pas en ce moment , c'est a venir"
+    fifth: "Offrez-vous des remboursements?"
+    fifthanswer: "Nous sommes très transparents sur notre politique de remboursement, nous vous invitons à lire nos TOS"
+    sixth: "Puis-je annuler à tout moment?"
+    sixthanswer: "Oui, vous pouvez annuler à tout moment, il n'y a pas de contrats"
+    seventh: "Quels modes de paiement acceptez-vous?"
+    seventhanswer: "nous acceptons Visa, MasterCard, American Express, Discover and PayPal."

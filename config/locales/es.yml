@@ -1,9 +1,10 @@
 es:
   nav:
     feature: "Caracteristicas"
-    pricing: "Precios" 
+    pricing: "Precios"
     links: 
       guide: "Guias"
+      faq:   "Faq"
     menu:
       links:
         logout: "Salir"
@@ -58,3 +59,19 @@ es:
     main: "Inicie su servidor de nube en segundos"
     links:
       launch: "Lanzar ahora"
+  faq:
+    title: "Preguntas más frecuentes"
+    first: "¿Cómo me cobran?"
+    firstanswer: "La facturación es automática al final de su mes de facturación. Los recursos que ha asignado a los servidores de su nube se calculan y facturan mensualmente"
+    second: "¿Cuánto cuesta comenzar?"
+    secondanswer: "Cuesta sólo $ 1 para comprar una nube. Su pago de $ 1 se agregará como un crédito de cuenta."
+    third:  "¿Me cobran por servidores fuera de línea?"
+    thirdanswer: "Sí, actualmente no ofrecemos precios para el servidor fuera linea."
+    fourth: "¿Ofrecen Windows?"
+    fourthanswer: "No en este momento, pronto"
+    fifth: "¿Ofrecen reembolsos?"
+    fifthanswer: "Somos muy transparentes acerca de nuestra política de reembolso; Le recomendamos que lea nuestras condiciones de servicio."
+    sixth: "Puedo cancelar en cualquier momento?"
+    sixthanswer: "Sí, puede cancelar en cualquier momento, no hay contratos."
+    seventh: "¿Qué métodos de pago aceptan?"
+    seventhanswer: "Aceptamos Visa, MasterCard, American Express, Discover y PayPal."

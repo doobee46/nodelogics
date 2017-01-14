@@ -1,0 +1,21 @@
+<div class="col-md-3">
+	<div class="side">
+		<h3>Quick Resources</h3>
+		<ul>
+			<li><a href="">Cloud Pricing</a></li>
+			<li><a href="">Cloud Features</a></li>
+			<% if controller_name == "pages" && action_name == "faq" %>
+			<li><a href="">Guides & Tutorials</a></li>
+			<% else %>
+			<li><a href="">faq</a></li>
+			<% end %>
+			<li><a href="">Chat with Us</a></li>
+		</ul>
+		<div class="promo">
+			<h3>Free starter server </h3>
+			<h1>Promo free</h1>			
+		</div>
+		<h2>Get started for only $3</h2>
+		<%=link_to t('index.links.deploy'), terms_path, :class =>'btn btn-primary btn-side'%>
+	</div>	
+</div>	

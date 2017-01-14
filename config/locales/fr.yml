@@ -9,7 +9,7 @@ fr:
       links:
         logout: "Deconnecter"
         login: "Connecter"
-        control: "Dashboard"
+        control: "Control Panel"
   index: 
     welcome: "Simple. Puissant. Efficace."
     performance: "Serveur Cloud haute performance"

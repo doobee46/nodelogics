@@ -30,7 +30,7 @@ en:
       links:
         logout: "logout"
         login: "login"
-        control: "control Panel"
+        control: "customer login"
   index: 
     welcome: "Simple. Powerful. Reliable."
     performance: "High Performance Cloud Server"

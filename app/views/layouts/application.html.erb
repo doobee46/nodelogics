@@ -15,7 +15,23 @@
     google: ['Open sans', 'Varela Round']
   }) %>
   <%= favicon_link_tag 'favicon.ico' %>
-  <!-- Piwik -->
+
+  <!--Start of Tawk.to Script-->
+  <script type="text/javascript">
+  var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+  (function(){
+  var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+  s1.async=true;
+  s1.src='https://embed.tawk.to/57ddb450dd50b61453665802/1b6jvqdh9';
+  s1.charset='UTF-8';
+  s1.setAttribute('crossorigin','*');
+  s0.parentNode.insertBefore(s1,s0);
+  })();
+  </script>
+  <!--End of Tawk.to Script-->
+
+  <!-- start Piwik Code -->
+  <% if Rails.env.production? %>
   <script type="text/javascript">
     var _paq = _paq || [];
     _paq.push(['trackPageView']);
@@ -28,16 +44,11 @@
       g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
     })();
   </script>
-  <noscript>
-  <p><img src="//stats.nodelogics.com/piwik/piwik.php?idsite=1" style="border:0;" alt="" /></p></noscript>
-  <!-- End Piwik Code -->
-  <% if Rails.env.production? %>
-  <script> (function(w,d,t,u,n,a,m){w['MauticTrackingObject']=n; w[n]=w[n]||function(){(w[n].q=w[n].q||[]).push(arguments)},a=d.createElement(t), m=d.getElementsByTagName(t)[0];a.async=1;a.src=u;m.parentNode.insertBefore(a,m) })(window,document,'script','http(s)://yourmautic.com/mtc.js','mt'); mt('send', 'pageview'); 
-  </script>
   <% end %>
+  <!-- End Piwik Code -->
+
   <%=render 'cookies_eu/consent_banner' %>
-  <%=render :partial =>'shared/feedback'%>
-  <%=render :partial =>'shared/chat'%>  
+  <%=render :partial =>'shared/feedback'%> 
 </head>
   <!--<p class="notice"><%= notice %></p>
   <p class="alert"><%= alert %></p>-->  

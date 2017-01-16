@@ -52,7 +52,7 @@ body {
 }
 
 .nav_bar ul li a:hover{
-    color:rgba(51,51,51,1);	
+    color:rgba(255, 255, 255,0.6);	
 }
 
 .login_menu ul {
@@ -76,7 +76,7 @@ body {
 }
 
 .login_menu li a:hover.btn.btn-simple.btn-inverse{
-   color:rgb(19,40,61) !important;
+   color:rgba(255,255,255,0.7) !important;
    
 }
 
@@ -694,10 +694,12 @@ a.btn.btn-primary-sm{
 
 
 h5.sub{
+   font-family: 'varela round', sans-serif;
    font-size:19px;
    margin-bottom:5px;
    text-transform: uppercase;
    text-align: center;
+   letter-spacing:1px;
 }
 
 

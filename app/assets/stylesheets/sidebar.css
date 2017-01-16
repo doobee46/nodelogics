@@ -60,6 +60,23 @@
 
 .btn-side{
 	width: 100% !important;
-	border-radius: none !important;
+	border-radius: 0px !important;
 
+}
+
+.hosting-promo{
+	border:3px dashed #e1e5e9;
+	padding:15px;
+	width: 100%;
+	height: auto;
+	margin-top: 20px;
+}
+
+.side a{
+	font-family: 'open sans', sans-serif;
+	font-weight: 700;
+	letter-spacing: 1px;
+	font-size: 16px;
+	text-transform: uppercase;
+    text-decoration: none;
 }

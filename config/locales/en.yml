@@ -36,7 +36,7 @@ en:
     performance: "High Performance Cloud Server"
     launch: "KVM based instance for launch in seconds"
     links:
-      deploy: "Deploy a server"
+      deploy: "Deploy server"
   product: 
     offer: "Our Product Offering"
     welcome: "Simple. Powerful. Reliable."

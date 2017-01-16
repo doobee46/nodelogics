@@ -19,7 +19,7 @@
 				<div class="login_menu">
 					<ul>
 					    
-                        <% if params[:controller] =='posts' %>
+                        <% if controller_name =='posts' %>
                         	<%if admin_signed_in? %>
                             <li>
                             	<%= link_to t('nav.menu.links.logout'), destroy_admin_session_path, :method => :delete,:class=>"btn btn-simple btn-inverse" %>
@@ -29,7 +29,7 @@
                             	<%= link_to t('nav.menu.links.login'), new_admin_session_path,:class=>"btn btn-simple btn-inverse" %>
                             </li>
                             <% end %>
-                        <% elsif params[:controller] == 'pages' && params[:action] == 'terms'%>
+                        <% elsif controller_name == 'pages' && action_name == 'terms'%>
                         <% else %>
                             <li>
 	                            <a  class="btn btn-simple btn-inverse" href="https://hosting.nodelogics.com/auth/login"><%= t('nav.menu.links.control') %></a>

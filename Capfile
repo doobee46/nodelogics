@@ -9,7 +9,10 @@ require 'capistrano/passenger'
 # If you are using rvm add these lines:
 require 'capistrano/rvm'
 set :rvm_type, :user
-set :rvm_ruby_version, '2.4.0'
+set :rvm_ruby_version, '2.3.1'
+
+require "capistrano/scm/git"
+install_plugin Capistrano::SCM::Git
 
 
 # Include tasks from other gems included in your Gemfile

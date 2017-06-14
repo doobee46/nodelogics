@@ -15,3 +15,4 @@
 !/log/.keep
 /tmp
 config/deploy/config/*
+config/database.yml\nconfig/secrets.yml

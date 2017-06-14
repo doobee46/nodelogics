@@ -1,5 +1,5 @@
 # config valid only for current version of Capistrano
-lock '3.4.1'
+lock '3.8.1'
 
 set :application, 'nodelogics'
 set :repo_url, 'git@github.com:doobee46/nodelogics.git'

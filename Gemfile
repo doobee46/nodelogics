@@ -62,12 +62,14 @@ gem 'capistrano-passenger', '~> 0.2.0'
 
 # Add this if you're using rvm
  gem 'capistrano-rvm'
-=begingem 'sqlite3'
+=begin
+gem 'sqlite3'
 gem 'capistrano', '~> 3.4.0'
 gem 'capistrano-bundler', '~> 1.1.2'
 gem 'capistrano-rails', '~> 1.1.1'
 gem 'capistrano-rvm', '~> 0.1.2'
-gem 'capistrano-passenger'=end
+gem 'capistrano-passenger'
+=end
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console

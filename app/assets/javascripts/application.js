@@ -15,6 +15,7 @@
 //= require cookies_eu
 //= require ckeditor/init
 //= require turbolinks
+//= require particles.min
 //= require_tree .
 
 $(document).ready(function() {

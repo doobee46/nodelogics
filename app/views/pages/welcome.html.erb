@@ -1,25 +1,27 @@
 <% @title = "Welcome"%>
+
 <section class="welcome">
-	<div class="container">
-		<div class="wel_wrapper">
-			<h3>Welcome | Bienvenue | Bienvenido </h3>
-			<div class="locale">
-				<h3>Please choose your destination</h3>
-				<ul>
-					<li>
-						<%=image_tag("US_flag.png")%>
-						<%=link_to 'English', change_locale_path(:en) %>
-					</li>
-					<li>
-						<%=image_tag("HT_flag.png")%>
-						<%=link_to 'French', change_locale_path(:fr)%>
-					</li>
-					<li>
-						<%=image_tag("DR_flag.png")%>
-						<%=link_to 'Spanish', change_locale_path(:es) %>
-					</li>
-				</ul>
-			</div>
-		</div>
-	</div>
+   <div class="container">
+       <div id="particles-js"></div>
+        <div class="wel_wrapper">
+            <h3>Welcome | Bienvenue | Bienvenido </h3>
+            <div class="locale">
+                <h3>Please choose your destination</h3>
+                <ul>
+                    <li>
+                        <%=image_tag("US_flag.png")%>
+                        <%=link_to 'English', change_locale_path(:en) %>
+                    </li>
+                    <li>
+                        <%=image_tag("HT_flag.png")%>
+                        <%=link_to 'French', change_locale_path(:fr)%>
+                    </li>
+                    <li>
+                        <%=image_tag("DR_flag.png")%>
+                        <%=link_to 'Spanish', change_locale_path(:es) %>
+                    </li>
+                </ul>
+            </div>
+        </div>
+     </div>
 </section>
